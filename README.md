@@ -4,8 +4,11 @@
       * [3D-print af geometriske figurer](#3d-print-af-geometriske-figurer)
   2. [Systemdesign](#systemdesign)
       * [Analyse af Tello-dronen som IT-system](#analyse-af-tello-dronen-som-it-system)
-  3. [Sikkerhed og Privathed](#sikkerhed-og-privathed)
-      * Tilføj flere her
+  3. [Sikkerhed og Privatliv](#sikkerhed-og-privatliv)
+      * [Sikkerhed og privacy](#sikkerhed-og-privacy)
+      * [Password-sikkerhed](#password-sikkerhed)
+      * [HTTP vs HTTPS](#http-vs-https)
+      * [Privacy, crypto og VPN](#privacy,-crypto-og-vpn)
   4. [Programmering](#programmering)
       * Tilføj flere her
   5. [Projekt Dronecontroller](#projekt-dronecontroller)
@@ -116,19 +119,92 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     <p/>
     
     ![Tello-Drone Flowchart](FlowchartTelloMission.png "Tello-Drone Flowchart")
+
+
+
+
+## Sikkerhed og privatliv
+### Sikkerhed og privacy
+  * **IT-sikkerhed**:
+    * Beskyttelse af information (Kreditkortinfo, kodeord, persondata generelt, osv)
+    * God IT-sikkerhed findes når det er svært at få uautoriseret adgang til.
+    * IT-sikkerhed er både vigtigt på personligt og på større plan (Firmaer, statssystemer, osv.)
     
+  * **Fortrolighed, integritet og tilgængelighed:**
+    * Fortrolighed:
+      * Fortrolighed dækker over at kun de personer og systemer som bør have adgang til systemet har adgang. Altså at ingen kan få uautoriseret agang. 
+    * Integritet:
+      * Integritet dækker over at brugerere og systemer får de rigtige data, når de anmoder om dem. (F.eks. at man får vist de rigtige beløber i sin bank)
+    * Tilgængelighed:
+      * Alle den som er autoriserede til at benytte systemet bør have nem adgang til det. Ellers mister systemet relevans.
+  
+  * **Privacy:**
+    * **_Stadig under debat_**
+    * Bør man være anonym på nettet?
+    * Hvor mange personoplysninger må sider lagre om dets brugere?
+    * Må staten få adgang til brugeres privatliv?
+    
+  * **Brugere og hackere:**
+    * Et IT-system er ofte ikke bedre end brugerne på det.
+      * Hvis brugere ikke beskytter sig selv ordentligt, er deres kontoer nemmere at få fat i. (Beskytter deres kodeord, vælger gode kodeord, osv.)
+    * Usikkerheder i IT-systemer:
+      * Menneskelige fejl kan frigive følsomme oplysninger.
+      * Password leaks. (Sker oftere end man skulle tro)
+    * Hvorfor bliver systemer hacket?
+      * Penge (Kreditkortoplysninger mm.)
+      * Politiske årsager (For at finde snavs om kandidater mm.)
+      * Berømmelse
+      * Forskning og udvikling af antivirus-software (Legitimt arbejde for at finde huller i IT-sikkerheden)
+  
+### Password-sikkerhed
+  * **Lastpass eller lignende:**
+    * Der findes masser af services som _sikkert_ kan opbevare ens kodeord, hvilket gør at man kan have uendeligt mange autogenerede kodeord, som er ekstremt svære at knække.
+    * Når man har forskellige kodeord, er det i værste fald kun én sides kodeord som bliver leaked, hvis at en side skulle komme til at leake brugernes kodeord. Det betyder at man ikke mister nært så meget ved et eventuelt leak. 
+  * **Tjek sikkerheden på dit kodeord:**
+    * Man kan finde hjemmesider som beregner (i cirkatal) hvor længe det ville tage en normal computer at cracke dit kodeord. Benytter man de langetogenrede kodeord som benytter sig af en masse forskellige typer tegn, når man hurtigt op på enormt lange crackingstider. Dette betyder at det er sværere for hackere at skaffe ens kodeord. 
+  * **haveibeenpwned:**
+    * På [haveibeenpwned](www.haveibeenpwned.com) kan man se om ens mailadresse har fået kodeord leaked. Dette kan give en idé om man bør ændre sit kodeord. 
+  
+### HTTP vs HTTPS
+  * **HTTP:**
+    * HTTP står for Hypertext Transfer Protocol, og er en protokol til at sende informationer mellem bruger og hjemmeside. HTTP kræver intet certifikat for at kunne bruges. 
+  * **HTTPS:**
+    * HTTPS står for Hypertext Transfer Protocol Secure, og fungerer lidt ligesom HTTP, bortset fra at det er sikkert. Det kræver et CAA-certifikat for en hjemmeside at benytte sig af https, et certifikat som gives ud af en [CA](https://en.wikipedia.org/wiki/Certificate_authority). Dette betyder at ens forbindelse er sikret, og at man kan være mere tryg på HTTPS, end på HTTP. 
 
-## Sikkerhed og privathed
-
-
+### Privacy, crypto og VPN
 
 
 ## Programmering
+### Python
+
+### Arduino (C++)
+
+
+
 
 ## Projekt Dronecontroller
+### Iteration 0
+
+### Iteration 1
+
+### Design af brugerundersøgelse
+
+### Iteration 1.5
+
+### Resultater af brugerundersøgelse
+
+### Iteration 2
+
+
+
 
 ## Webtek
 
+
+
+
 ## Logbog
 ### Markdown
+  * Til skrivning af logbogen benytter vi github's readme-dokument, som benytter sig af Markdown-formatet (.md). Markdown er en simplificeret version af HTML, som gør det nemmere at lave simple webbaserede dokumenter. Ud over den syntaks som er lavet specielt til Markdown, for at gøre det simpelt, kan man stadig benytte sig af normal HTML, hvilket gør at det ikke er begrænset, selvom det er simplificeret. 
   
+  * [Guide til Markdown](https://guides.github.com/features/mastering-markdown/)
