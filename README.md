@@ -7,7 +7,7 @@
  5. [Projekt Dronecontroller](#projekt-dronecontroller)
  6. [Webtek](#webtek)
  7. [Logbog](#logbog)
- 8. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank">NGGYU</a>
+ 8. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank">NGGYU rel="noreferrer noopener"</a>
  
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
