@@ -112,6 +112,11 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   
   * #### **_Flowchart over en simpel mission for dronen_**
     * Herunder ses et flowchart over en simpel mission for dronen:
+    
+    <p/>
+    
+    ![Tello-Drone Flowchart](FlowchartTelloMission.png "Tello-Drone Flowchart")
+    
 
 ## Sikkerhed og privathed
 
