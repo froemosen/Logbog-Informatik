@@ -7,7 +7,7 @@
  5. [Projekt Dronecontroller](#projekt-dronecontroller)
  6. [Webtek](#webtek)
  7. [Logbog](#logbog)
- 8. [Marks chip](https://youtu.be/dQw4w9WgXcQ?t=43)
+ 8. [Marks chip](https://youtu.be/dQw4w9WgXcQ?t=43){:target="_blank"}
  
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
