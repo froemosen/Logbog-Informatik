@@ -7,6 +7,7 @@
  5. [Projekt Dronecontroller](#projekt-dronecontroller)
  6. [Webtek](#webtek)
  7. [Logbog](#logbog)
+ 8. [Marks chip](#https://youtu.be/dQw4w9WgXcQ?t=43)
  
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
@@ -29,16 +30,3 @@
 
 ## Logbog
  * ### Markdown
-
-
-# Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
-
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
