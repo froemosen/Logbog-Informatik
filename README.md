@@ -3,7 +3,7 @@
   1. [Makeraktiviteter](#makeraktiviteter)
       * [3D-print af geometriske figurer](#3d-print-af-geometriske-figurer)
   2. [Systemdesign](#systemdesign)
-      * Tilføj flere her
+      * [Analyse af Tello-dronen som IT-system](#analyse-af-tello-dronen-som-it-system)
   3. [Sikkerhed og Privathed](#sikkerhed-og-privathed)
       * Tilføj flere her
   4. [Programmering](#programmering)
@@ -18,8 +18,10 @@
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
 ## Makeraktiviteter
-* Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen, som er at 3D-printe. 
 ### 3D-print af geometriske figurer
+
+  * Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen, som er at 3D-printe. 
+
   * #### **_Skabning af 3D-modeller (Fusion 360)_**
     * I Fusion 360 kan man konstruere forskellige 3D-modeller og derefter eksportere dem til blandt andet ".stl"- filer som kan bruges i Cura til at printe ens figurer. Programmet viser også mål på alle figurerne, hvilket gør det let og overskuligt at lave sine figurer i de rigtige størrelser.                    
     **Funktionerne som kan bruges er mange, men her er nogle af dem:**
@@ -54,9 +56,29 @@
     * Man kan bruge følgende formel for at udregne afvigelsen på diverse størrelser på et 3D-print:
     ![Udregning af afvigelse](afgUdregning.PNG "Udregning af afvigelse")
     
+
+
+
 ## Systemdesign
+  ### Analyse af Tello-dronen som IT-system
+  * Vi fik til opgave at analyse Tello-dronen som et IT-system, ved at benytte nye tillærte analysemetoder. Analysen skulle senere bruges som base til selv at konstruere en dronecontroller. Disse metoder, og deres sammenhæng med tellodronen ses i følgende afsnit. Generelt fandt vi ud af at systemet bestod af to grundlæggende bestanddele. Selve dronen og telefonen der styrer den. 
+  
+  * #### **_Blokdiagram over systemets bestanddele_**
+    * Herunder ses et boksdiagram som inddeler systemet i de to hovedbestanddele (dronen og telefonen), og angiver hvilke dele der hører til de to.
+  
+  * #### **_Navigation: Analyse af dronens IMU (inertial measurement unit) og nedadseende kamera_**
+
+  * #### **_Kommunikaion mellem telefon og drone_**
+  
+  * #### **_Inddeling af systemet i 3-lagsarkitekturen_**
+  
+  * #### **_Flowchart over en simpel mission for dronen_**
+
 
 ## Sikkerhed og privathed
+
+
+
 
 ## Programmering
 
