@@ -1,12 +1,12 @@
 # **Logbog-Informatik**
 #### Indholdsfortegnelse:
- 1. [Makeraktiviteter](Makeraktiviteter)
- 2. [Systemdesign](Systemdesign)
- 3. [Sikkerhed og Privathed](Sikkerhed_Og_Privathed)
- 4. [Programmering](Programmering)
- 5. [Sikkerhed og Privathed](Sikkerhed_Og_Privathed)
- 6. [Webtek](Webtek)
- 7. [Hodyah](Logbog)
+ 1. [Makeraktiviteter](#makeraktiviteter)
+ 2. [Systemdesign](#systemdesign)
+ 3. [Sikkerhed og Privathed](#sikkerhed-og-privathed)
+ 4. [Programmering](#programmering)
+ 5. [Projekt Dronecontroller](#projekt-dronecontroller)
+ 6. [Webtek](#webtek)
+ 7. [Logbog](#logbog)
  
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
@@ -19,11 +19,11 @@
     
 ## Systemdesign
 
-## Sikkerhed_og_Privathed
+## Sikkerhed og privathed
 
 ## Programmering
 
-## Projekt_Dronecontroller
+## Projekt Dronecontroller
 
 ## Webtek
 
