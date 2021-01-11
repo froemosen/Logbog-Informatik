@@ -18,7 +18,7 @@
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
 ## Makeraktiviteter
-* Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen som er, at 3D-printe. 
+* Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen, som er at 3D-printe. 
 ### 3D-print af geometriske figurer
   * #### **_Skabning af 3D-modeller (Fusion 360)_**
     * I Fusion 360 kan man konstruere forskellige 3D-modeller og derefter eksportere dem til blandt andet ".stl"- filer som kan bruges i Cura til at printe ens figurer. Programmet viser også mål på alle figurerne, hvilket gør det let og overskuligt at lave sine figurer i de rigtige størrelser.                    
@@ -52,7 +52,7 @@
       
   * #### **_Udregning af afvigelse på mål_**
     * Man kan bruge følgende formel for at udregne afvigelsen på diverse størrelser på et 3D-print:
-    ![Udregning af afvigelse](afvUdregn.PNG "Udregning af afvigelse")
+    ![Udregning af afvigelse](afvUdregning.PNG "Udregning af afvigelse")
     
 ## Systemdesign
 
