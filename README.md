@@ -52,7 +52,7 @@
       
   * #### **_Udregning af afvigelse på mål_**
     * Man kan bruge følgende formel for at udregne afvigelsen på diverse størrelser på et 3D-print:
-    ![Udregning af afvigelse](afvUdregning.PNG "Udregning af afvigelse")
+    ![Udregning af afvigelse](afgUdregning.PNG "Udregning af afvigelse")
     
 ## Systemdesign
 
