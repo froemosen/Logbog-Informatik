@@ -54,6 +54,7 @@
       
   * #### **_Udregning af afvigelse på mål_**
     * Man kan bruge følgende formel for at udregne afvigelsen på diverse størrelser på et 3D-print:
+    
     ![Udregning af afvigelse](afgUdregning.PNG "Udregning af afvigelse")
     
 
@@ -65,15 +66,52 @@
   
   * #### **_Blokdiagram over systemets bestanddele_**
     * Herunder ses et boksdiagram som inddeler systemet i de to hovedbestanddele (dronen og telefonen), og angiver hvilke dele der hører til de to.
+    
+    <p/>
+    
+    ![Tello-Drone Boksdiagram](TelloDroneBoksdiagram.png "Tello-Drone Boksdiagram")
   
   * #### **_Navigation: Analyse af dronens IMU (inertial measurement unit) og nedadseende kamera_**
+    * Dronen består primært af to forskellige dele, som den kan bruge til at vide hvor
+dens flyvning skal justeres:
+      * IMU (inertial measurement unit):
+        * _Dronens IMU består af fire forskellige sensorer. Et barometer, et termometer, et gyroskop og et accelerometer. Her er hvad de hver især kan registrere:_
+          * _**Barometer** - Højde (Lufttryk)._
+          * _**Termometer** - Bruges ved kalibrering, for at kende lufttemperatur._
+          * _**Gyroskop** - Dronens rotation på alle akser._
+          * _**Accelerometer** - Ændringer i hastighed._
+      * Nedadseende kamera:
+        * _Dronens **nedadseende kamera** bruges til at registrere både afstand (højde) og fart. Dette kan teknisk set også registreres ud fra barometeret, gyroskopet og accelerometeret, men kameraet fungerer som en slags dobbeltsikring, for at værdierne er korrekte. Derudover kan kameraet også være mere præcis end alternativerne. Kameraet har også en laser, som bruges til at måle højden._
 
   * #### **_Kommunikaion mellem telefon og drone_**
-  
+    * TELLO-dronen bruger wifi til at kommunikere med telefonen. Dette er tydeligt, da
+dronen selv opretter et hotspot, som man skal tilslutte sin telefon til. Protokollen der
+bliver brugt hedder UDP. 
+    * **Sådan virker wifi:**
+      * Wifi virker ved at sende data gennem elektromagnestisk stråling, lidt ligesom
+radio, tv-signal og gps fungerer. Dog er den primære forskel på disse systemer,
+at wifi er lavet til at kunne sende meget mere data ad gangen, hvilket dog
+betyder at den data ikke kan udsendes særligt langt. Dette opnås ved at hæve
+frekvensen på signalet, hvilket gør at der er flere svingninger i lyset per sekund.
+(Derfor ses det for eksempel at 5 GHz internet er hurtigere end 2,4 GHz
+internet).
+Signalet sender den binære kode ude som systemet har sammensat, og denne
+binære kode kan ses enten ved små ændringer i frekvensen, som der bliver
+gjort ved fm-radio, eller ændringer i styrken af signalet, som ved am-radio. Dog
+er wifi-signaler er en blanding af disse, for at kunne sende op til 8 bits hver
+gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit. 
+
   * #### **_Inddeling af systemet i 3-lagsarkitekturen_**
+    * Herunder ses en tabel som inddeler systemet i 3-lagsarkitekturen:
+  
+  |    |  Dronen  |  Telefonen  |
+  |----|----|----|
+  |  **Præsentationslaget**  |  - Blinkende LED-indikator <br/>- Sluk-/tænd-knap  |  - Live-kamera<br/>**UI:**<br/>1.	Højde og Horisontal hastighed<br/>2.	Settings<br/>3.	Forprogrammerede kommandoer vælges af bruger (Nævnes i ”1.”)<br/>4.	Styring af dronen (joysticks)<br/>5.	Flere funktioner (Optag video, Tag billede)  |
+  |  **Logiklaget**  |  - Behandling af input fra telefonen <br/>- Stabilitet fra sensorer <br/>- Send info til telefon <br/>- Information om interne systemer behandles, for at kunne sendes til telefon  |  - Klargør data fra dronen som skal vises til brugeren<br/>- Layout af UI<br/>- Udsending og fortolkning af brugerinput  |
+  |  **Datalaget**  |  - Nedadseende kamera og laser<br/>- Input fra telefon<br/>**IMU:**<br/>1.	Accelerometer<br/>2.	Termometer<br/>3.	Barometer<br/>4.	Gyrometer<br/>- Information om interne systemer (Batteri, osv.)<br/>- Kollisions-detektion fra propellerne  |  - Settings<br/>**Data fra dronen:**<br/>1.	Fejlkoder<br/>2.	Højde<br/>3.	Batteri<br/>4.	Horisontal hastighed<br/>5.	Kamera-feed  |
   
   * #### **_Flowchart over en simpel mission for dronen_**
-
+    * Herunder ses et flowchart over en simpel mission for dronen:
 
 ## Sikkerhed og privathed
 
