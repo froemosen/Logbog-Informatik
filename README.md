@@ -1,6 +1,7 @@
 # **Logbog-Informatik**
 
 ## Makeraktiviteter
+### 3D-print af geometriske figurer
 
 ## Systemdesign
 
