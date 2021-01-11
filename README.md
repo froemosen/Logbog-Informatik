@@ -8,7 +8,8 @@
       * [Sikkerhed og privacy](#sikkerhed-og-privacy)
       * [Password-sikkerhed](#password-sikkerhed)
       * [HTTP vs HTTPS](#http-vs-https)
-      * [Privacy, crypto og VPN](#privacy,-crypto-og-vpn)
+      * [Privacy, crypto og VPN](#privacy-crypto-og-vpn)
+      * [John Snowden](#john-snowden)
   4. [Programmering](#programmering)
       * Tilføj flere her
   5. [Projekt Dronecontroller](#projekt-dronecontroller)
@@ -137,6 +138,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       * Integritet dækker over at brugerere og systemer får de rigtige data, når de anmoder om dem. (F.eks. at man får vist de rigtige beløber i sin bank)
     * Tilgængelighed:
       * Alle den som er autoriserede til at benytte systemet bør have nem adgang til det. Ellers mister systemet relevans.
+    * CIA-modellen:
+       
+       ![CIA-modellen](https://blog.jamestyson.co.uk/wp-content/uploads/2019/09/CIA-triad.png "CIA-modellen")
   
   * **Privacy:**
     * **_Stadig under debat_**
@@ -172,14 +176,20 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     * HTTPS står for Hypertext Transfer Protocol Secure, og fungerer lidt ligesom HTTP, bortset fra at det er sikkert. Det kræver et CAA-certifikat for en hjemmeside at benytte sig af https, et certifikat som gives ud af en [CA](https://en.wikipedia.org/wiki/Certificate_authority). Dette betyder at ens forbindelse er sikret, og at man kan være mere tryg på HTTPS, end på HTTP. 
 
 ### Privacy, crypto og VPN
+  * VPN:
+    * En VPN (Virtual Private Network) er en service, hvor en bruger kobler sig på en server et sted i verden, og browser igennem den server. Det gør at ens internetudbyder ikke længere kan se hvilke sider man besøger, udover generelt at være mere sikkert fra ondsindede personer på nettet. 
 
+### John Snowden
+  * Vi så filmen "Snowden", som filmatiserer hvordan John Snowden afslørede hemmelig masseovervågning af befolkninger verden over, som blev foretaget af blandt andet NSA og CIA. Filmen sætter tanker i gang om privacy, og har også været med til at lave en del af den lovgivning som blandt andet EU er i gang med at indføre, for at sikre borgernes ret til privatliv.  
 
 ## Programmering
 ### Python
-
+  * Python er et relativt simpelt programmeringssprog, som ikke er begrænset til én platform. Det er specielt på den måde, at det er lavet til at være "readable", hvilket betyder at der er ændringer på syntaksen i forhold til mange andre programmeringssprog. I python betyder _indents_ noget for hvad bestemte dele af koden tilhører, i stedet for at man skal bruge "{}". Meget specielt er også at man ikke skal deklarere datatyper på sine variabler når man laver dem. En anden fordel ved python er også, at det kører meget hurtigt, og at man ikke skal konstruere sit program i python for at kunne køre det, ligesom i mange andre sprog. 
+  
+  
+    I Informatik har vi brugt python til at kode vores dronecontroller, ved også at benytte tellopy-biblioteket.
 ### Arduino (C++)
-
-
+  * En arduino er en lille computer, som man kan bruge til alverdens ting. I Informatik har vi brugt arduinoer til at konstruere vores dronecontroller. Arduinoen kører maskinkode, som konstrueres ud fra c++ sammen med Arduino IDE. I c++ koder man arduinoen, til at frigive den data man gerne vil have. Arduinoen har forskellige porte som kan registrere input, og det er vigtigt at koden registrer de rigtige data. Til sidst i koden til arduinoen udskriver arduinoen data i serial, som derefter kan registreres i python. 
 
 
 ## Projekt Dronecontroller
