@@ -7,7 +7,8 @@
  5. [Projekt Dronecontroller](#projekt-dronecontroller)
  6. [Webtek](#webtek)
  7. [Logbog](#logbog)
- 8. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a>
+ 8. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
+      <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
@@ -30,3 +31,4 @@
 
 ## Logbog
  * ### Markdown
+  
