@@ -16,6 +16,7 @@
   5. [Projekt Dronecontroller](#projekt-dronecontroller)
       * [Iteration 0](#iteration-0)
       * [Iteration 1](#iteration-1)
+      * [Heuristikker og gestaltlovene](#heuristikker-og-gestaltlovene)
       * [Design af brugerundersøgelse](#design-af-brugerundersøgelse)
       * [Iteration 1.5](#iteration-15)
       * [Resultater af brugerundersøgelse](#resultater-af-brugerundersøgelse)
@@ -200,7 +201,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ## Projekt Dronecontroller
 ### Iteration 0
-  * Iteration 0 i Projekt Dronecontroller gik primært ud på at planlægge projektets gang. 
+  * Iteration 0 i Projekt Dronecontroller gik primært ud på at planlægge projektets gang. [Læs dokumentationen til iteration 0 her.](https://github.com/froemosen/Logbog-Informatik/blob/main/Informatik%20Controller%20-%20Iteration%200.pdf)
   * #### Brainstorm - Sådan kan man styre en drone
     * Vi lavede en mindmap over forskellige måder hvorpå man kan styre en drone, for at få en idé om hvilke muligheder vi havde til at lave en controller. **Vores brainstorm kan ses herunder:**
     
@@ -240,12 +241,40 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     * Flowchartet herunder viser vores første idéer for et flowchart over hele systemet:
     
     
-    ![Flowchart over systemet](ControllerFlowchart.PNG "Flowchart over systemet")
+    ![Flowchart over systemet](ControllerFlowchart0.png "Flowchart over systemet")
   
 
 ### Iteration 1
-
+  * Ved udgangen af iteration 1 var projektet ved at tage form. [Læs hele dokumentationen til iteration 1 her.](https://github.com/froemosen/Logbog-Informatik/blob/main/Informatik%20Controller%20-%20Iteration%201.pdf) Følgende punkter i fase planen var påbegyndt eller færdiggjort ved afleveringen af iteration 1:
+    * **1. Controller bygges på arduino**
+    * **2. Input til PC fra arduino**
+    * **3. Oversættelse fra c++ til python**
+    * **6. Custom Arcade Joysticks**
+    
+### Heuristikker og gestaltlovene
+  * Gestaltlovene og Jakob Nielsens 10 heuristikker om UI-design er principper (love), som hjælper designeren af et user interface med at gøre det mere brugervenligt. Det gør de gennem psykologiske 'tricks', som gør en programmer mere overskuelige og mere tilegnede til den menneskelige hjerne. Her er hovedpointerne i de 10 heuristiskker og gestaltlovene:
+  * [**Gestaltlovene:**](https://informatik-gym.dk/glossary/gestaltlove/)
+    * #1: Nærhed (proximity). Figurer der er placeret tæt på hinanden ses som en gruppe.
+    * #2: Lighed (similarity invarians). Ens figurer opfattes som en gruppe.
+    * #3: Lukkethed (closure). Delelementer af et billede stykkes sammen til at skabe helheden.
+    * #4: Kontinuitet og symmetri. Optræder to figurer symmetriske omkring en linje, ses de som en gruppe.
+    * #5: Prægnans (Prägnanz) – figur/baggrund. Hjernen leder den efter mønstre, kontinuitet, ensartethed.
+    * #6: Erfaring (Past experience, “Common Fate”). Dækker bl.a. over brugen af ikoner
+    * #7: Forbundethed – Forbindes figurer med en streg, opfattes de umiddelbart som sammenhørende (forbundenhed er et design tips – ikke en gestaltlov).  <p/>  
+  * [**Jakob Nielsens 10 heuristikker**](https://www.nngroup.com/articles/ten-usability-heuristics/)
+    * #1: Visning af systemstatus
+    * #2: Match mellem system og den rigtige verden
+    * #3: Brugerkontrol og frihed
+    * #4: Overensstemmelse og standarder
+    * #5: Fejlprævention
+    * #6: Genkendelse hellere end hukommelse
+    * #7: Fleksibilitet og effektiv brug
+    * #8: Æstetisk og minimalistisk design
+    * #9: Hjælp brugere med at genkende, diagnosere og kommer videre fra fejl.
+    * #10: Hjælp og dokumentation
+    
 ### Design af brugerundersøgelse
+  * For at kunne optimere vores endelige design, er det vigtigt at man finder svage punkter ved ens design, som skal forbedres. Det vælger vi at adressere ved at lave en brugerundersøgelse, hvor vi får nye brugeres første indtryk af vores dronecontroller. [Læs dokumentationen til design af brugerundersøgelse her](https://github.com/froemosen/Logbog-Informatik/blob/main/Brugerunders%C3%B8gelse%20-%20Dronecontroller.pdf)
 
 ### Iteration 1.5
 
