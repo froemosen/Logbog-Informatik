@@ -12,7 +12,7 @@
       * [John Snowden](#john-snowden)
   4. [Programmering](#programmering)
       * [Python](#python)
-      * [Arduino (C++)](#arduino-c++)
+      * [Arduino (C++)](#arduino-c)
   5. [Projekt Dronecontroller](#projekt-dronecontroller)
       * [Iteration 0](#iteration-0)
       * [Iteration 1](#iteration-1)
@@ -30,7 +30,7 @@
 ## Makeraktiviteter
 ### 3D-print af geometriske figurer
 
-  * Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen, som er at 3D-printe. 
+  * Vi fik til opgave at fremstille forskellige geometriske figurer, og printe dem på skolens 3D-printere. Herunder ses en guide de forskellige trin i processen, som er at 3D-printe. [Læs hele dokumentationen her](https://github.com/froemosen/Logbog-Informatik/blob/main/3d-figurer%20-%20Kristian%20H.pdf)
 
   * #### **_Skabning af 3D-modeller (Fusion 360)_**
     * I Fusion 360 kan man konstruere forskellige 3D-modeller og derefter eksportere dem til blandt andet ".stl"- filer som kan bruges i Cura til at printe ens figurer. Programmet viser også mål på alle figurerne, hvilket gør det let og overskuligt at lave sine figurer i de rigtige størrelser.                    
@@ -72,7 +72,7 @@
 
 ## Systemdesign
   ### Analyse af Tello-dronen som IT-system
-  * Vi fik til opgave at analyse Tello-dronen som et IT-system, ved at benytte nye tillærte analysemetoder. Analysen skulle senere bruges som base til selv at konstruere en dronecontroller. Disse metoder, og deres sammenhæng med tellodronen ses i følgende afsnit. Generelt fandt vi ud af at systemet bestod af to grundlæggende bestanddele. Selve dronen og telefonen der styrer den. 
+  * Vi fik til opgave at analyse Tello-dronen som et IT-system, ved at benytte nye tillærte analysemetoder. Analysen skulle senere bruges som base til selv at konstruere en dronecontroller. Disse metoder, og deres sammenhæng med tellodronen ses i følgende afsnit. Generelt fandt vi ud af at systemet bestod af to grundlæggende bestanddele. Selve dronen og telefonen der styrer den. [Læs hele dokumentationen her](https://github.com/froemosen/Logbog-Informatik/blob/main/Analyse%20af%20Tello-drone.pdf)
   
   * #### **_Blokdiagram over systemets bestanddele_**
     * Herunder ses et boksdiagram som inddeler systemet i de to hovedbestanddele (dronen og telefonen), og angiver hvilke dele der hører til de to.
@@ -200,6 +200,48 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ## Projekt Dronecontroller
 ### Iteration 0
+  * Iteration 0 i Projekt Dronecontroller gik primært ud på at planlægge projektets gang. 
+  * #### Brainstorm - Sådan kan man styre en drone
+    * Vi lavede en mindmap over forskellige måder hvorpå man kan styre en drone, for at få en idé om hvilke muligheder vi havde til at lave en controller. **Vores brainstorm kan ses herunder:**
+    
+    ![Brainstorm over styremåder](ControllerBrainstorm.PNG "Brainstorm over styremåder")
+  
+  * #### Konkrete idéer til controllerkoncepter
+    * Efter brainstormen kom vi op med tre konkrete idéer til koncepter til vores dronecontroller. De tre idéer kan ses herunder: *(Den udvalgte står i fed)*
+    
+      
+      **Konkrete idéer til controllers:**  
+      * Accelerometer + Gyroskop føres rundt for at bestemme dronens bevægelse
+      * **Klassisk Arkade (joysticks og knapper)**
+      * Lyde som bestemmer dronens bevægelse (Forskellige frekvenser = forskellige retninger)
+  
+  * #### Den udvalgte idé
+    * Vi har valgt at lave en arcade-stil controller til vores drone. 
+     * Selve controlleren består af joysticks og knapper, som er tilknyttet en arduino.
+     * Computeren bliver benyttet både til at oversætte kommandoer fra arduino, og til at vise live video fra dronen.
+     * Hele pakken pakkes ind på en måde som skaber samme setup som i en klassisk arkade. 
+  
+  * #### Faseplanen!
+    * Vi lavede en simpel faseplan for projektet, som viste sig at være utroligt værdifuld for overblik i projektet. Vi havde pludselig en simpel måde at se hvilke dele af projektet vi var i gang med, hvilke vi var færdige med, og hvilke der stadig manglede. Det giver overblik over både processen og ens forløb ift. tiden man har tilbage til at blive færdige. **Faseplanen kan ses herunder:**
+    
+    
+      **Tjekliste - Faser til vores controller-byggeri:**
+      1. Controller bygges på arduino
+      2. Input til PC fra arduino
+      3. Oversættelse fra c++ til python
+      4. Output fra pc - kommandoer til drone
+      5. Drone skal kunne sende video til computer, som skal fremvise det.
+      6. Æstetik - Custom Arcade Joysticks, Classic Arcade
+      
+      _**Extra stuff:**_
+      - Fejlfinding
+      - Ekstra funktionalitet
+  * #### Flowchart over systemet:
+    * Flowchartet herunder viser vores første idéer for et flowchart over hele systemet:
+    
+    
+    ![Flowchart over systemet](ControllerFlowchart.PNG "Flowchart over systemet")
+  
 
 ### Iteration 1
 
