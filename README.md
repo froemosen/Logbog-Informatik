@@ -204,11 +204,22 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * #### Brainstorm - Sådan kan man styre en drone
     * Vi lavede en mindmap over forskellige måder hvorpå man kan styre en drone, for at få en idé om hvilke muligheder vi havde til at lave en controller. **Vores brainstorm kan ses herunder:**
     
-    ![Brainstorm over styremåder](
+    ![Brainstorm over styremåder](ControllerBrainstorm.PNG "Brainstorm over styremåder")
   
   * #### Konkrete idéer til controllerkoncepter
+    * Efter brainstormen kom vi op med tre konkrete idéer til koncepter til vores dronecontroller. De tre idéer kan ses herunder: *(Den udvalgte står i fed)*
+    
+      
+      **Konkrete idéer til controllers:**  
+      * Accelerometer + Gyroskop føres rundt for at bestemme dronens bevægelse
+      * **Klassisk Arkade (joysticks og knapper)**
+      * Lyde som bestemmer dronens bevægelse (Forskellige frekvenser = forskellige retninger)
   
   * #### Den udvalgte idé
+    * Vi har valgt at lave en arcade-stil controller til vores drone. 
+     * Selve controlleren består af joysticks og knapper, som er tilknyttet en arduino.
+     * Computeren bliver benyttet både til at oversætte kommandoer fra arduino, og til at vise live video fra dronen.
+     * Hele pakken pakkes ind på en måde som skaber samme setup som i en klassisk arkade. 
   
   * #### Faseplanen!
     * Vi lavede en simpel faseplan for projektet, som viste sig at være utroligt værdifuld for overblik i projektet. Vi havde pludselig en simpel måde at se hvilke dele af projektet vi var i gang med, hvilke vi var færdige med, og hvilke der stadig manglede. Det giver overblik over både processen og ens forløb ift. tiden man har tilbage til at blive færdige. **Faseplanen kan ses herunder:**
@@ -226,7 +237,10 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       - Fejlfinding
       - Ekstra funktionalitet
   * #### Flowchart over systemet:
-    * Flowchartet herunder 
+    * Flowchartet herunder viser vores første idéer for et flowchart over hele systemet:
+    
+    
+    ![Flowchart over systemet](ControllerFlowchart.PNG "Flowchart over systemet")
   
 
 ### Iteration 1
