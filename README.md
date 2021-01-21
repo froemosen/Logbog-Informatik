@@ -218,19 +218,19 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     
     
  * **_Eksempler på persondata kan være race, økonomi, navn, etnisk oprindelse, religion, adresse, fødselsdato, biometriske data, gæld, seksuelle forhold og arbejdsområde. Fordel ovenstående oplysninger i kategorierne almindelige personoplysninger og følsomme personoplysninger._**
-  * | Datatype          | Mit bud    | Rigtigt Svar |
-    |-------------------|------------|--------------|
-    | race              | Følsom     | Følsom       |
-    | økonomi           | **Følsom**     | **Almindelig**   |
-    | navn              | Almindelig | Almindelig   |
-    | etnisk oprindelse | Følsom     | Følsom       |
-    | religion          | Følsom     | Følsom       |
-    | adresse           | Almindelig | Almindelig   |
-    | fødselsdato       | Almindelig | Almindelig   |
-    | biometriske data  | Følsom     | Følsom       |
-    | gæld              | **Følsom**     | **Almindelig**   |
-    | seksuelle forhold | Følsom     | Følsom       |
-    | arbejdsområde     | **Følsom**     | **Almindelig**   |
+   * | Datatype          | Mit bud    | Rigtigt Svar |
+     |-------------------|------------|--------------|
+     | race              | Følsom     | Følsom       |
+     | økonomi           | **Følsom**     | **Almindelig**   |
+     | navn              | Almindelig | Almindelig   |
+     | etnisk oprindelse | Følsom     | Følsom       |
+     | religion          | Følsom     | Følsom       |
+     | adresse           | Almindelig | Almindelig   |
+     | fødselsdato       | Almindelig | Almindelig   |
+     | biometriske data  | Følsom     | Følsom       |
+     | gæld              | **Følsom**     | **Almindelig**   |
+     | seksuelle forhold | Følsom     | Følsom       |
+     | arbejdsområde     | **Følsom**     | **Almindelig**   |
 
 ## Programmering
 ### Python
