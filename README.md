@@ -216,6 +216,21 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * **_Hvor mange private virksomheder har registreret oplysninger om dig? Du kan ikke finde et samlet oversigt, så du må prøve at tælle dig frem. Du kan gå ud fra, at du er registreret alle steder, hvor du er fast kunde – forudsat du har opgivet navn og adresse. Mange steder bliver du også registreret, første gang du opgiver navn, adresse eller e-mail. Prøv at lave en optælling._**
     * MANGE! Jeg kan hurtigt finde frem til mindst 20, men jeg kan forestille mig at tallet er meget højere. 
     
+    
+ * **_Eksempler på persondata kan være race, økonomi, navn, etnisk oprindelse, religion, adresse, fødselsdato, biometriske data, gæld, seksuelle forhold og arbejdsområde. Fordel ovenstående oplysninger i kategorierne almindelige personoplysninger og følsomme personoplysninger._**
+  * | Datatype          | Mit bud    | Rigtigt Svar |
+    |-------------------|------------|--------------|
+    | race              | Følsom     | Følsom       |
+    | økonomi           | **Følsom**     | **Almindelig**   |
+    | navn              | Almindelig | Almindelig   |
+    | etnisk oprindelse | Følsom     | Følsom       |
+    | religion          | Følsom     | Følsom       |
+    | adresse           | Almindelig | Almindelig   |
+    | fødselsdato       | Almindelig | Almindelig   |
+    | biometriske data  | Følsom     | Følsom       |
+    | gæld              | **Følsom**     | **Almindelig**   |
+    | seksuelle forhold | Følsom     | Følsom       |
+    | arbejdsområde     | **Følsom**     | **Almindelig**   |
 
 ## Programmering
 ### Python
