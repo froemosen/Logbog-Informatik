@@ -10,6 +10,7 @@
       * [HTTP vs HTTPS](#http-vs-https)
       * [Privacy, crypto og VPN](#privacy-crypto-og-vpn)
       * [John Snowden](#john-snowden)
+      * [Personlige data og sociale medier](#personlige-data-og-sociale-medier)
   4. [Programmering](#programmering)
       * [Python](#python)
       * [Arduino (C++)](#arduino-c)
@@ -188,6 +189,33 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ### John Snowden
   * Vi så filmen "Snowden", som filmatiserer hvordan John Snowden afslørede hemmelig masseovervågning af befolkninger verden over, som blev foretaget af blandt andet NSA og CIA. Filmen sætter tanker i gang om privacy, og har også været med til at lave en del af den lovgivning som blandt andet EU er i gang med at indføre, for at sikre borgernes ret til privatliv.  
+
+### Personlige data og sociale medier
+  * **Informatikbog - Personlige data:**
+    * **_Hvor meget har det offentlige registreret om dig via dit CPR-nummer? Find oplysningerne via borger.dk._**
+      * Adresse, flytninger og byggesager
+      * Informationer om indkomst og skat
+      * Personoplysninger generelt:
+        * Tilknyttet A-kasse
+        * Navn
+        * CPR-nummer
+        * Adresse
+        * Statsborgerskab
+      * Sunhedsdata:
+        * Se journal fra sygehus
+        * Se dit medicinkort
+        * Se laboratoriesvar
+        * Gå til organdonation
+        * Opret/ret livstestamente
+        * Giv fuldmagt til pårørende (e-journal, laboratoriesvar, min log og aftaler)
+        * Se konsultationer hos læge, tandlæge, fysioterapeut m.fl.
+        * Se oplysninger i Landspatientregistret
+        * Se dine vaccinationer
+      * Uddannelse (Forkerte oplysninger om ungdomskort)
+      * Offentlige ydelser, gæld, mm.
+  * **_Hvor mange private virksomheder har registreret oplysninger om dig? Du kan ikke finde et samlet oversigt, så du må prøve at tælle dig frem. Du kan gå ud fra, at du er registreret alle steder, hvor du er fast kunde – forudsat du har opgivet navn og adresse. Mange steder bliver du også registreret, første gang du opgiver navn, adresse eller e-mail. Prøv at lave en optælling._**
+    * MANGE! Jeg kan hurtigt finde frem til mindst 20, men jeg kan forestille mig at tallet er meget højere. 
+    
 
 ## Programmering
 ### Python
