@@ -26,7 +26,10 @@
       * Tilføj flere her
   7. [Logbog (Markdown)](#logbog)
       * [Markdown](#markdown)
-  8. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
+  8. [Formidling af programmering](#formidling-af-programmering)
+      * [Målgruppeanalyse](#målgruppeanalyse)
+      * [Reklame integreret i spil](reklame-integreret-i-spil)
+  9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
 ## Makeraktiviteter
