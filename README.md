@@ -22,13 +22,13 @@
       * [Iteration 1.5](#iteration-15)
       * [Resultater af brugerundersøgelse](#resultater-af-brugerundersøgelse)
       * [Iteration 2](#iteration-2)
-  6. [Webtek](#webtek)
-      * Tilføj flere her
-  7. [Logbog (Markdown)](#logbog)
+  6. [Logbog (Markdown)](#logbog)
       * [Markdown](#markdown)
-  8. [Formidling af programmering](#formidling-af-programmering)
+  7. [Formidling af programmering](#formidling-af-programmering)
       * [Målgruppeanalyse](#målgruppeanalyse)
       * [Reklame integreret i spil](reklame-integreret-i-spil)
+  8. [Webtek](#webtek)
+      * Tilføj flere her
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
@@ -342,7 +342,10 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * [Guide til Markdown](https://guides.github.com/features/mastering-markdown/)
 
 
-## Reklamespil
+## Formidling af programmering
+### Målgruppeanalyse
+
+### Reklame integreret i spil
 
 ## Webtek
 
