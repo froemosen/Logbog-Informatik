@@ -344,7 +344,10 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ## Formidling af programmering
 ### Målgruppeanalyse
-
+  * Som en del af et spil vi lavede i programmering, lavede vi i Informatik en målgruppeanalyse. Her undersøgte vi demografi, geografi, psykografi, sociografi og problemrelaterede detaljer. Vi opstillede en fiktionel person (persona), og opsatte karaktertræk indenfor de kategorier. Personaen kan ses herunder:
+  
+  ![Persona](Persona.png "Persona")
+  
 ### Reklame integreret i spil
 
 ## Webtek
