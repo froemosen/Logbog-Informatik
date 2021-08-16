@@ -328,7 +328,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     * Video fra drone kan fremvises på PC
     * Den fysiske controller-/arkadeprototype blev fremstillet
 
-### Resultater af brugeru<<<<ndersøgelse
+### Resultater af brugerundersøgelse
   * **Projekt afsluttet grundet Corona**
 
 ### Iteration 2
