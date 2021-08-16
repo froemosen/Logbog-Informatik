@@ -349,6 +349,13 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   ![Persona](Persona.png "Persona")
   
 ### Reklame integreret i spil
+  * Projekt som beskriver hvordan der kan reklameres for raspberry pi i det fremstillede spil. Herunder blev der kigget på følgende ting:
+    * Eksplicitte og implicitte reklamer
+    * Produktet vi vil reklamere for (Raspberry Pi)
+    * AIDA-modellen
+
+### Dataindsamling fra brugere
+  * Projekt hvor det beskrives hvordan man kan lave dataindsamling fra brugere, som kan bruges fordelagtigt ift. reklamer. 
 
 ## Webtek
 
