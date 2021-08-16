@@ -323,11 +323,16 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * For at kunne optimere vores endelige design, er det vigtigt at man finder svage punkter ved ens design, som skal forbedres. Det vælger vi at adressere ved at lave en brugerundersøgelse, hvor vi får nye brugeres første indtryk af vores dronecontroller. [Læs dokumentationen til design af brugerundersøgelse her](https://github.com/froemosen/Logbog-Informatik/blob/main/Brugerunders%C3%B8gelse%20-%20Dronecontroller.pdf)
 
 ### Iteration 1.5
+  * Vigtige ting som vi nåede før projektet blev sat på pause i evig tid:
+    * Utestet kode til kommunikation mellem drone og PC
+    * Video fra drone kan fremvises på PC
+    * Den fysiske controller-/arkadeprototype blev fremstillet
 
-### Resultater af brugerundersøgelse
+### Resultater af brugeru<<<<ndersøgelse
+  * **Projekt afsluttet grundet Corona**
 
 ### Iteration 2
-
+  * **Projekt afsluttet grundet Corona**
 
 
 
