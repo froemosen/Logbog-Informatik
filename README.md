@@ -335,16 +335,14 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * **Projekt afsluttet grundet Corona**
 
 
-
-## Webtek
-
-
-
-
 ## Logbog
 ### Markdown
   * Til skrivning af logbogen benytter vi github's readme-dokument, som benytter sig af Markdown-formatet (.md). Markdown er en simplificeret version af HTML, som gør det nemmere at lave simple webbaserede dokumenter. Ud over den syntaks som er lavet specielt til Markdown, for at gøre det simpelt, kan man stadig benytte sig af normal HTML, hvilket gør at det ikke er begrænset, selvom det er simplificeret. 
   
   * [Guide til Markdown](https://guides.github.com/features/mastering-markdown/)
 
+
+## Reklamespil
+
+## Webtek
 
