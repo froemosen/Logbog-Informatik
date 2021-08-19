@@ -372,9 +372,13 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ### Curl
 * Curl kan indsamle data fra forskellige webadresser. Det gør ved følende format:
-  * "curl (evt. ekstra kommandoer -v) www.domain.com/fil/fil.type"
+  * *curl (evt. ekstra kommandoer -v) www.domain.com/fil/fil.type*
   * Man kan bruge "-v"-kommandoen til at få ekstra super meget data fra ens request. Derfra kan man se formatet på hvordan man laver server request. Det kan bruges i for eksempel arduino ellers raspberry pi, til at få data fra hjemmeside. 
 
+### Bash
+  * Bruges til at skrive kommando ind i fil. Følgende ting man bruges:
+    *  command parameter **>** filnavn.filtype (Skriver ind i fil, erstatter½)
+    *  command parameter **>>** filnavn.filtype (Skriver ind i fil, uden at overskrive)
 
 ### WSL-kommandoer
 
@@ -383,5 +387,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **cd .ssh** | ingen parametre | Går ind i .ssh-stien |
     | **ls** | -a (viser alt) | Viser filer i mappen |
     | **pwd** | ingen parametre | Viser fil-sti |
-    | **curl** | -v (viser flere info) | Henter data fra website |
+    | **curl _url_** | -v (viser flere info) | Henter data fra website |
+    | **ls** | ~ (default sti) | Lister filer i sti |
+    | **echo** | ingen parametre | Siger det man skriver tilbage som output. (Brug fx til test af bash) |
+    | **cat file.format** | ingen parametre | Viser data fra fil i terminal. Man kan godt printe indhold fra flere filer ad gangen |
+    
     
