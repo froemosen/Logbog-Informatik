@@ -376,7 +376,8 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 
 ### WSL-kommandoer
-| Kommando|Parametre| Beskrivelse |
-| cd .ssh | ingen parametre | Går ind i .ssh-stien |
-| ls | -a (viser alt) | Viser filer i mappen |
-| pwd | ingen parametre | Viser fil-sti |
+
+  - | Kommando | Parametre | Beskrivelse |
+    | cd .ssh | ingen parametre | Går ind i .ssh-stien |
+    | ls | -a (viser alt) | Viser filer i mappen |
+    | pwd | ingen parametre | Viser fil-sti |
