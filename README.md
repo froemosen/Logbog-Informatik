@@ -26,9 +26,10 @@
       * [Markdown](#markdown)
   7. [Formidling af programmering](#formidling-af-programmering)
       * [Målgruppeanalyse](#målgruppeanalyse)
-      * [Reklame integreret i spil](reklame-integreret-i-spil)
+      * [Reklame integreret i spil](#reklame-integreret-i-spil)
   8. [Webtek](#webtek)
-      * [Linux-terminal på windows (SSH aka secure shell nøglegenerering (og installation af WSL på windows))](
+      * [Linux-terminal på windows (SSH aka secure shell nøglegenerering (og installation af WSL på windows))](#linux-terminal-på-windows-ssh-aka-secure-shell-nøglegenerering-og-installation-af-wsl-på-windows)
+      * [Curl](#curl)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
