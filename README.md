@@ -358,4 +358,17 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * Projekt hvor det beskrives hvordan man kan lave dataindsamling fra brugere, som kan bruges fordelagtigt ift. reklamer. 
 
 ## Webtek
+### Linux-terminal på windows (SSH aka secure shell nøglegenerering (og installation af WSL på windows))
+  * Begreber som du skal huske:
+    * **WSL** (Windows Subsystem for Linux) - Linux-terminalen vi har downloadet
+    * **SSH** (Sercure Shell) - Sikker terminal
+    * **RSA** (Rivest, Shamir, Adleman) - Kryptosystem baseret på co-prime primtal. Din RSA-key er baseret på dette. Det er bare en sikker måde man kan give adgang til brugere med rigtige nøgler. 
+  
 
+  * [Link til opgaven på it's learning](https://aarhustech.itslearning.com/ContentArea/ContentArea.aspx?LocationID=40172&LocationType=1&ElementID=1289790)
+  * Min public key er: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFdv5ERQCZT/h8C9GAE/bLrmE0k8VnEgmwdYOcRdJnYGoE5sM1BKnDaagw/OcknfCtHy9owDV1T8Ecuv6COwUpgA7FvWJt3NiI3ssZF6NPy0Xcp08YugjlcQvr08/umKVBe8/1FxeS9tIW6ap2KU2Elf7uTUqpL/SVYh7Eff7dpF7iaGdF42kvA07uNFDBTY05cLdfndrNRcha+8RFhnJYgkrXi942wpNOwnEC7/V5WgqKhLMzh4dBgO9d6iiZcZ9en5FVsb2G2ts4MB5EShXX28n7iHS5TS68VLuYBxoaP0q0s/E62ksg9WFWUYlLzOYXE4ht1lBRws3hSi5DGSNdc5BtsvOCKJ6WRHgd3HqhU4b6C8z5YLsyBAogKPBNr3E6BUcYD1mn2rDxU+QS5HauMEy0uSfVuB90UKvju0vlSInuWDfa/xbkGsiCYHFrB1cGvWyxxi4vsc7dT6d7UizvzMrfrEfkH1cmpCfmsFrUkS24wX2N02IU0WojL641tX2HJayAcoNbr6CeLk2FuP2RZPsXSlQqx2iIUMV/XxDQBbr90r27SWLt4yGPcLDFXB8ngkMkNVxdAzXerstgMx34Eby+zR+4fAaIlLx3n5YlWZ+vee4nVo+fF35CsECae4V0fWmlSGYOrG77EhaT1IdVFLvGIVWYe/80NQ8mCN8ckQ== froemosen@LAPTOP-605L94J6"
+
+### Curl
+* Curl kan indsamle data fra forskellige webadresser. Det gør ved følende format:
+  * "curl (evt. ekstra kommandoer -v) www.domain.com/fil/fil.type"
+  * Man kan bruge "-v"-kommandoen til at få ekstra super meget data fra ens request. Derfra kan man se formatet på hvordan man laver server request. Det kan bruges i for eksempel arduino ellers raspberry pi, til at få data fra hjemmeside. 
