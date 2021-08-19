@@ -373,3 +373,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 * Curl kan indsamle data fra forskellige webadresser. Det gør ved følende format:
   * "curl (evt. ekstra kommandoer -v) www.domain.com/fil/fil.type"
   * Man kan bruge "-v"-kommandoen til at få ekstra super meget data fra ens request. Derfra kan man se formatet på hvordan man laver server request. Det kan bruges i for eksempel arduino ellers raspberry pi, til at få data fra hjemmeside. 
+
+
+### WSL-kommandoer
+|Kommando|Parametre|Beskrivelse|
