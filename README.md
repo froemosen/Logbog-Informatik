@@ -388,7 +388,6 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **ls** | -a (viser alt) | Viser filer i mappen |
     | **pwd** | ingen parametre | Viser fil-sti |
     | **curl _url_** | -v (viser flere info) | Henter data fra website |
-    | **ls** | ~ (default sti) | Lister filer i sti |
     | **echo** | ingen parametre | Siger det man skriver tilbage som output. (Brug fx til test af bash) |
     | **cat file.format** | ingen parametre | Viser data fra fil i terminal. Man kan godt printe indhold fra flere filer ad gangen |
     
