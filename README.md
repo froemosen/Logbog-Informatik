@@ -28,7 +28,7 @@
       * [Målgruppeanalyse](#målgruppeanalyse)
       * [Reklame integreret i spil](reklame-integreret-i-spil)
   8. [Webtek](#webtek)
-      * Tilføj flere her
+      * [Linux-terminal på windows (SSH aka secure shell nøglegenerering (og installation af WSL på windows))](
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
