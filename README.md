@@ -382,4 +382,5 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **cd .ssh** | ingen parametre | Går ind i .ssh-stien |
     | **ls** | -a (viser alt) | Viser filer i mappen |
     | **pwd** | ingen parametre | Viser fil-sti |
+    | **curl** | -v (viser flere info) | Henter data fra website |
     
