@@ -31,6 +31,7 @@
       * [Linux-terminal på windows (SSH aka secure shell nøglegenerering (og installation af WSL på windows))](#linux-terminal-på-windows-ssh-aka-secure-shell-nøglegenerering-og-installation-af-wsl-på-windows)
       * [Curl](#curl)
       * [WSL-kommandoer](#wsl-kommandoer)
+      * [OSI-model](#osi-model)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
@@ -391,4 +392,8 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **echo** | ingen parametre | Siger det man skriver tilbage som output. (Brug fx til test af bash) |
     | **cat file.format** | ingen parametre | Viser data fra fil i terminal. Man kan godt printe indhold fra flere filer ad gangen |
     
+### OSI-model
+  - OSI-modellen viser kommunikationsstruktur for computere. Man kan også tale om et 8. lag, som ville være brugeren/fejllaget. Her sker der ofte ID10T-fejl. :)
+  
+  ![OSI-model](OSI-Model.png "OSI-model")
     
