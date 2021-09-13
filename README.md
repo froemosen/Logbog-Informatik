@@ -32,6 +32,7 @@
       * [Curl](#curl)
       * [WSL-kommandoer](#wsl-kommandoer)
       * [OSI-model](#osi-model)
+      * [nmap og firewall](#nmap-og-firewall)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
@@ -393,9 +394,17 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **cat file.format** | ingen parametre | Viser data fra fil i terminal. Man kan godt printe indhold fra flere filer ad gangen |
     | **dig _url_** | ingen parametre | Skaffer lidt data fra hjemmeside (IP-adresse fx.) |
     | **chmod _permissions_ _filename_** | Ingen parametre | Binære tal viser permissions for skaber, gruppe og alle. Derfor giver 777 alle permissions til alle, mens 000 giver ingen permissions til alle. Tallene udregnes med tre bit, i rækkefølgen Read, Write, Execute. Derfor giver alle permissions til en bestemt bruger 7. Der er tre brugergrupper, så 777 er alle permissions til alle. Makes sense.
+    | **nmap _url_** | ingen parametre | Bruges til at se åbne porte på server |
+    | **certbot** | idk | bed om certification |
     
 ### OSI-model
   - OSI-modellen viser kommunikationsstruktur for computere. Man kan også tale om et 8. lag, som ville være brugeren/fejllaget. Her sker der ofte ID10T-fejl. :)
   
   ![OSI-model](OSI-Model.png "OSI-model")
+  
+  
+### nmap og firewall
+  - nmap kan tjekke hvilke porte der er åbne på computere og servere. Man skriver "nmap _serverID_"
+  - Husk "sudo apt install nmap" (ubuntu)
+  - Eller "sudo yum install nmap (alma)
     
