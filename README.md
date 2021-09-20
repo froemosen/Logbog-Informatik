@@ -34,7 +34,7 @@
       * [OSI-model](#osi-model)
       * [nmap og firewall](#nmap-og-firewall)
       * [nginx](#nginx)
-      * [EFF.org](#eff.org)
+      * [EFF.org](#efforg)
       * [PHP](#php)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
