@@ -34,7 +34,7 @@
       * [OSI-model](#osi-model)
       * [nmap og firewall](#nmap-og-firewall)
       * [nginx](#nginx)
-      * [EFF.org](#efforg)
+      * [EFF.org og Certbot](#efforg-og-certbot)
       * [PHP](#php)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
@@ -414,8 +414,8 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 ### nginx
   - Bruges til at installere http og https
 
-### EFF.org
-  - Bruges til at få godkendelse/certifikat til https.
+### EFF.org og Certbot
+  - Bruges til at få godkendelse/certifikat til https. Certbot sender request til EFF.org
     
 ### PHP
   - Kommunikation mellem HTML-server og database. Henter data fra databasen, og viser det til brugeren.
