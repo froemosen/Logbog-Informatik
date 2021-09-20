@@ -37,6 +37,7 @@
       * [EFF.org og Certbot](#efforg-og-certbot)
       * [PHP](#php)
       * [MariaDB database](#mariadb-database)
+      * [Minecraft server](#minecraft-server)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
  
