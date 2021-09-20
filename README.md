@@ -33,6 +33,7 @@
       * [WSL-kommandoer](#wsl-kommandoer)
       * [OSI-model](#osi-model)
       * [nmap og firewall](#nmap-og-firewall)
+      * [nginx](#nginx)
       * [PHP](#php)
   9. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
@@ -408,6 +409,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   - nmap kan tjekke hvilke porte der er åbne på computere og servere. Man skriver "nmap _serverID_"
   - Husk "sudo apt install nmap" (ubuntu)
   - Eller "sudo yum install nmap (alma)
+
+### nginx
+  - Bruges til at installere http og https, samt på godkendelse til det.
     
 ### PHP
   - Kommunikation mellem HTML-server og database. Henter data fra databasen, og viser det til brugeren.
