@@ -423,3 +423,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ### MariaDB database
   - Plugin som bruges til at adminstrere sin database. Taler sammen med PHP.
+
+### Minecraft server
+  - Til Java-servers bruges **jre**.
+  - Til Bedrock-servers bruges **pocketmine**.
