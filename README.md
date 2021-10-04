@@ -428,3 +428,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 ### Minecraft server
   - Til Java-servers bruges **jre**.
   - Til Bedrock-servers bruges **pocketmine**.
+
+
+## Databaser
+  ### E/R-diagrammer
+  - E/R-diagrammer bruges til at vise relationer med entiteter, relationer og attributer i en database/et I/T-system. 
+  - [Læs om dem her](https://informatik.systime.dk/?id=1136)
