@@ -434,3 +434,13 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   ### E/R-diagrammer
   - E/R-diagrammer bruges til at vise relationer med entiteter, relationer og attributer i en database/et I/T-system. 
   - [Læs om dem her](https://informatik.systime.dk/?id=1136)
+
+
+  ### WSL-kommandoer
+
+  - | Kommando | Parametre | Beskrivelse |
+    |-------------------|--------------|----------------------------|
+    | **scp _source_ _login:destination_** | ingen parametre | Kopier filer ind på server med Secure CoPy |
+
+
+
