@@ -40,7 +40,7 @@
       * [Minecraft server](#minecraft-server)
   9. [Databaser](#databaser)
       * [E/R-diagrammer](#er-diagrammer)
-      * 
+      * [WSL-kommandoer](#wsl-kommandoer-1)
   10. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
