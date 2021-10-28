@@ -41,6 +41,9 @@
   9. [Databaser](#databaser)
       * [E/R-diagrammer](#er-diagrammer)
       * [WSL-kommandoer](#wsl-kommandoer-1)
+      * [LNMP-stack](lnmp-stack)
+      * [SCP (WINSCP)](scp-winscp)
+      * [Relevant læsestof og links](relevant-læsestof-og-links)
   10. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
@@ -456,17 +459,18 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
   ### SCP (WINSCP)
   - SCP bruges til at overføre filer fra en lokal computer til ens linux-server. Vi har gennem programmet WINSCP fået en mere overskuelig måde at gøre det på, hvor serverens filer og ens lokale filer vises ved siden af hinanden, for at give overblik og simplificere overførslen af filer.
-
+  
     Herunder ses et screenshot af WINSCP:
-    
+   
     ![WINSCP](WINSCP.PNG "WINSCP")
-    
+
+ 
   ### Relevant læsestof og links
-    - I emnet har vi fulgt en masse guides, for at kunne opsætte en database og vise informationen fra den database i html. Herunder er en liste med relevante links, som vi har brugt i undervisningen:
-      - [Import database in mariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
-      - [Interaktion med databaser - SYSTIME](https://informatik.systime.dk/?id=1099)
-      - [E/R diagrammer - Systime](https://informatik.systime.dk/?id=1136)
-      - [Databaseanalyse - Systime](https://informatik.systime.dk/?id=1135)
-      - [Databaser - Systime](https://informatik.systime.dk/?id=1134)
-      - [Opret bruger i MariaDB](https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges)
-      - [Import af grundstoffer til databasen](https://aarhustech.itslearning.com/CustomActivity/CustomActivityOverview.aspx?CustomActivityId=1332046)
+  - I emnet har vi fulgt en masse guides, for at kunne opsætte en database og vise informationen fra den database i html. Herunder er en liste med relevante links, som vi har brugt i undervisningen:    
+      -  [Import database in mariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
+      -  [Interaktion med databaser - SYSTIME](https://informatik.systime.dk/?id=1099)
+      -  [E/R diagrammer - Systime](https://informatik.systime.dk/?id=1136)
+      -  [Databaseanalyse - Systime](https://informatik.systime.dk/?id=1135)
+      -  [Databaser - Systime](https://informatik.systime.dk/?id=1134)
+      -  [Opret bruger i MariaDB](https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges)
+      -  [Import af grundstoffer til databasen](https://aarhustech.itslearning.com/CustomActivity/CustomActivityOverview.aspx?CustomActivityId=1332046)
