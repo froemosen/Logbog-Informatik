@@ -38,6 +38,7 @@
       * [PHP](#php)
       * [MariaDB database](#mariadb-database)
       * [Minecraft server](#minecraft-server)
+      * [Basic logik og adder](#basic-logik-og-adder)
   9. [Databaser](#databaser)
       * [E/R-diagrammer](#er-diagrammer)
       * [WSL-kommandoer](#wsl-kommandoer-1)
@@ -435,6 +436,14 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 ### Minecraft server
   - Til Java-servers bruges **jre**.
   - Til Bedrock-servers bruges **pocketmine**.
+
+### Basic logik og adder
+  - I forløbet lærte vi om basal computer-logik og logic gates. Dette endte ud med et projekt, hvor vi selv skulle fremstille en 4-bit eller 8-bit adder. Vi tog i høj grad udgangspunkt i [Sebastian Lague's "Digital Logic Sim"](https://youtu.be/QZwneRb-zqA), hvor man selv kan fremstille og lege rundt med logic gates. 
+  - [Se afleveringen her](https://drive.google.com/file/d/1WoFnM_zZLNRh7oCNl5QKCl7nxhBH95di/view?usp=sharing)
+
+   ![Projekt Adder](AdderProjekt.PNG "Adder Projekt")
+  
+ 
 
 
 ## Databaser
