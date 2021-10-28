@@ -439,6 +439,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   - E/R-diagrammer bruges til at vise relationer med entiteter, relationer og attributer i en database/et I/T-system. 
   - [Læs om dem her](https://informatik.systime.dk/?id=1136)
 
+    I forløbet har vi selv fremstillet et E/R-diagram over relationerne på skolen. Herunder ses mit E/R-diagram:
+    ![E/R-diagram](E_R%20diagram%20over%20gymnasiet.drawio.png "E/R-diagram")
+
 
   ### WSL-kommandoer
 
@@ -447,4 +450,23 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
     | **scp _source_ _login:destination_** | ingen parametre | Kopier filer ind på server med Secure CoPy |
 
 
+  ### LNMP-stack
+  - Opsætningen af hele vores server, kan betegnes som en LNMP-stack, hvilket er baseret på de plugins vi har brugt. De forskellige plugins består styresystemet vi kører serveren på, vores netværksopsætning som laver html, vores database og til sidst sammensætningen/oversætteren mellem database og html. Samlet set har vi importeret en .sql-fil i ind i vores servere, som derefter, gennem php, er blevet omdannet til data på et website.
+  - LNMP står for **L**inux, **N**ginx, **M**ariaDB, **P**hp.
 
+  ### SCP (WINSCP)
+  - SCP bruges til at overføre filer fra en lokal computer til ens linux-server. Vi har gennem programmet WINSCP fået en mere overskuelig måde at gøre det på, hvor serverens filer og ens lokale filer vises ved siden af hinanden, for at give overblik og simplificere overførslen af filer.
+
+    Herunder ses et screenshot af WINSCP:
+    
+    ![WINSCP](WINSCP.PNG "WINSCP")
+    
+  ### Relevant læsestof og links
+    - I emnet har vi fulgt en masse guides, for at kunne opsætte en database og vise informationen fra den database i html. Herunder er en liste med relevante links, som vi har brugt i undervisningen:
+      - [Import database in mariaDB](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb)
+      - [Interaktion med databaser - SYSTIME](https://informatik.systime.dk/?id=1099)
+      - [E/R diagrammer - Systime](https://informatik.systime.dk/?id=1136)
+      - [Databaseanalyse - Systime](https://informatik.systime.dk/?id=1135)
+      - [Databaser - Systime](https://informatik.systime.dk/?id=1134)
+      - [Opret bruger i MariaDB](https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges)
+      - [Import af grundstoffer til databasen](https://aarhustech.itslearning.com/CustomActivity/CustomActivityOverview.aspx?CustomActivityId=1332046)
