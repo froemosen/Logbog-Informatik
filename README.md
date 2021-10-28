@@ -41,9 +41,9 @@
   9. [Databaser](#databaser)
       * [E/R-diagrammer](#er-diagrammer)
       * [WSL-kommandoer](#wsl-kommandoer-1)
-      * [LNMP-stack](lnmp-stack)
-      * [SCP (WINSCP)](scp-winscp)
-      * [Relevant læsestof og links](relevant-læsestof-og-links)
+      * [LNMP-stack](#lnmp-stack)
+      * [SCP (WINSCP)](#scp-winscp)
+      * [Relevant læsestof og links](#relevant-læsestof-og-links)
   10. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
