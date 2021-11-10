@@ -46,7 +46,9 @@
       * [SCP (WINSCP)](#scp-winscp)
       * [Relevant læsestof og links](#relevant-læsestof-og-links)
   10. [Micro:Maqueen](#micromaqueen)
-  11. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
+      * [Introduktion](#introduktion)
+      * [Info-spørgsmål fra Mark](#info-sporgsmal-fra-mark)
+  12. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
  
