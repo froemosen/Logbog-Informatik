@@ -45,7 +45,8 @@
       * [LNMP-stack](#lnmp-stack)
       * [SCP (WINSCP)](#scp-winscp)
       * [Relevant læsestof og links](#relevant-læsestof-og-links)
-  10. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
+  10. [Micro:Maqueen](#micromaqueen)
+  11. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
  
@@ -483,3 +484,32 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       -  [Databaser - Systime](https://informatik.systime.dk/?id=1134)
       -  [Opret bruger i MariaDB](https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges)
       -  [Import af grundstoffer til databasen](https://aarhustech.itslearning.com/CustomActivity/CustomActivityOverview.aspx?CustomActivityId=1332046)
+
+
+## Micro:Maqueen
+  ### Introduktion
+  - Introduktion
+    
+  ### Info-spørgsmål fra Mark
+  - Hvilke sensorer har platformen?
+  - Sidder de på main boardet, eller på robotplatformen?
+  - Hvad måler de?
+  - Hvad kan de bruges til?
+    
+    **Micro:Bit:**
+      - Accelerometer
+      - Temperatur
+      - Light
+      - Compass
+      - Touch logo
+      - Mikrofon
+      - Radio/bluetooth  
+    
+        ![MicroBitSensors](MicroBitSensors.jpg)
+    
+    **Micro:Maqueen:**
+      - Infrared grayscale sensor (Bruges til line tracking)
+      - Infrared reciever (Kan modtage infrarøde signaler)
+      - Ultrasonic sensor (Afstandmåler / Øjnene)
+    
+        ![MicroMaqueenSensors](MicroMaqueenSensors.jpg)
