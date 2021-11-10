@@ -488,7 +488,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 ## Micro:Maqueen
   ### Introduktion
-  - Introduktion
+  - Micro:Maqueen er en Micro:bit-baseret robot, som kan kodes i Micro-Python. I Informatik har vi arbejdet med at lære robotten at kende, og prøve at udnytte alle dens sensorer og funktioner, eller ihvertfald så mange af dem som muligt. Jeg har brugt programmet [Mu](https://github.com/DFRobot/Maqueen_MicroPython_MU) til at skrive koden til robotten, da det kan opsættes specifikt til Micro:Maqueens funktioner. 
     
   ### Info-spørgsmål fra Mark
   - Hvilke sensorer har platformen?
