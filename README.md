@@ -506,6 +506,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       - Touch logo
       - Mikrofon
       - Radio/bluetooth  
+      - Magnetometer
     
         ![MicroBitSensors](MicroBitSensors.jpg)
     
