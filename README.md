@@ -516,3 +516,20 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       - Ultrasonic sensor (Afstandmåler / Øjnene)
     
         ![MicroMaqueenSensors](MicroMaqueenSensors.jpg)
+        
+        
+   **Hvordan kan den programmeres?**
+      - Micro:Maqueen programmeres gennem Micro:bitten, og det kan gøres på flere forskellige måder. Micro:bitten kører compilet maskinkode, så man kan også kode den i flere forskellige sprog. Herunder ses en lille liste over populære måder at kode Micro:bitten på:
+        - 
+   
+    
+   
+   ### Problemer med Line following
+    
+    **Kontrolsystem**
+      ***Plan for kontrolsystemet***
+        - Oversigt over systemet
+        - Trello
+
+      
+      ***Kommunikation og dataoverførsel med Bluetooth***
