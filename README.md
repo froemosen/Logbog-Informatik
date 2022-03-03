@@ -48,6 +48,7 @@
   10. [Micro:Maqueen](#micromaqueen)
       * [Introduktion](#introduktion)
       * [Info-spørgsmål fra Mark](#info-spørgsmål-fra-mark)
+      * [Andet dokumentation](#andet-dokumentation)
   11. [Security and hacking](#security-and-hacking)
       * [Noter til oplæg](#noter-til-oplæg)
       * [Hack all the things](#hack-all-the-things)
@@ -538,11 +539,56 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       ***Kommunikation og dataoverførsel med Bluetooth***
       
       
+   
+   ### Andet dokumentation
+    * https://docs.google.com/document/d/1tS5juLM1npcMeDmNPnSNTH3EHV2yRtU7JKbMlbJlkQM/edit?usp=sharing
+    * https://docs.google.com/document/d/1FBN1gm0OWgExDoLETiVRaFHidFhz0snd7uWguGwcdcU/edit?usp=sharing
+    
+      
+      
 ## Security and hacking
 
   ### Noter til oplæg
   ![NoterTilOplæg](NoterTilOplæg.jpg)
   
-  
   ### Hack all the things
+  #### TryHackMe - Pre Security (Basics)
+   1. Gæt 4-digit reset password kode på en hjemmeside med dårlig sikkerhed (Bruteforce angreb)
+      ![image](https://user-images.githubusercontent.com/60390711/156546678-3e21dc64-fc1e-452c-a9fa-3cedf795a5f9.png)
 
+   2. Læs om angreb på Target
+     ![image](https://user-images.githubusercontent.com/60390711/156547198-d2fe2e4e-774c-4b93-8a07-8450368431b7.png)
+
+   3. Læs om lærings-veje
+      ![image](https://user-images.githubusercontent.com/60390711/156547403-481734fd-37ca-4a03-abb2-27eabea2d221.png)
+
+   Det begynder at kede mig at være på tryhackme, så jeg begynder på kvalifikation til cybermesterskaber.
+   
+   
+  #### DDC - Web Exploitation - Jacobs hus
+  * Hjemmesiden: 
+  * ![image](https://user-images.githubusercontent.com/60390711/156550540-72773f4a-bd29-4bf3-a08a-569d88511a43.png)
+  * Intet at finde med inspect element - Prøver at skaffe adgang gennem terminal
+  * Curl af hjemmeside: 
+  * ![image](https://user-images.githubusercontent.com/60390711/156551707-094fc114-66c8-4f95-acc9-2e9fdfd53b23.png)
+  * Port 80 - HTTP - Vi finder directories med dirb ud fra url 
+  * ![image](https://user-images.githubusercontent.com/60390711/156551992-e74c6922-f5bf-410e-bdca-2935059feb0e.png)
+  * Vi undersøger robots.txt
+  * ![image](https://user-images.githubusercontent.com/60390711/156552175-277ca7f0-62a1-4a16-9f8c-ab3b58162c34.png)
+  * Vi undersøger /backup:
+  * ![image](https://user-images.githubusercontent.com/60390711/156552439-33e146be-ed2a-4b87-9afe-7786a25316be.png)
+  * Indgang med ssh findes i .txt-fil:
+  * ![image](https://user-images.githubusercontent.com/60390711/156552542-9273fc80-36b7-4381-ad63-fce0eab128c5.png)
+  * Username skal findes - Det er ikke root. Der gættes på jacob, som virker:
+  * ![image](https://user-images.githubusercontent.com/60390711/156554464-3ea975c9-36c4-4519-b1c1-efdfc710ed26.png)
+  * Der findes en root-mappe, men vi har ikke adgang med bruger jacob. Dog har vi adgang til SUDO-actions efter at indtaste kodeord igen. Vi bruger "sudo ls root" og finder ud af at der er en fil som hedder flag.txt. Derefter bruges "sudo cat root/flag.txt". Derefter er flaget fundet:
+  * ![image](https://user-images.githubusercontent.com/60390711/156561912-023ce711-9067-4888-99d0-af365ceb64f1.png)
+  * __Nu er opgaven donezo__
+  * ![image](https://user-images.githubusercontent.com/60390711/156562678-2aec2c7c-4303-47ba-9ace-8f5bd8b3dcfb.png)
+
+  #### DDC - Reverse Engineering - Strings I
+  * Flaget står gemt i filen, hvis man omdanner den til txt:
+  * ![image](https://user-images.githubusercontent.com/60390711/156564974-45a1b71c-bfe9-445d-a355-7183df7ffb56.png)
+
+
+  
