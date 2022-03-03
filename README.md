@@ -599,4 +599,20 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * ![image](https://user-images.githubusercontent.com/60390711/156567234-771ac397-3c5e-44c7-8bed-0a635c15d5a9.png)
 
 
+  #### DDC - Forensics - Meta
+  * Man får et billede:
+  * ![meta](https://user-images.githubusercontent.com/60390711/156568603-5a5a874a-fa95-4d5d-9875-bcac6da4f7fa.png)
+  * Koden står i metadata, som kan læses ved at billede omdannes fra .png til .txt:
+  * ![image](https://user-images.githubusercontent.com/60390711/156568663-270490ff-4736-4b5f-af17-08a1d979f50d.png)
+  * __Task complete:__
+  * ![image](https://user-images.githubusercontent.com/60390711/156568733-b33237cc-91f9-4457-8d2a-7881088b4c74.png)
+
+  #### DDC - Forensics - Super Secure Vault 9001
+  * Efter gennemsøgning af data, er det tydeligt at fortrolig.pdf har den data vi skal bruge. Den hentes på følgende måde fra wireshark:
+  * ![image](https://user-images.githubusercontent.com/60390711/156584294-aa59de05-9d81-4252-b16a-28d34ba566cd.png)
+  * Følgende står i pdf-filen:
+  * ![image](https://user-images.githubusercontent.com/60390711/156584419-e87a8a86-0174-4847-b7ac-28db829dd7de.png)
+  * __Task complete!__
+  * ![image](https://user-images.githubusercontent.com/60390711/156584934-e1826303-f2c8-4463-9575-b6d4c1a93ced.png)
+
   
