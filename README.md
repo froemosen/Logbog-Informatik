@@ -48,6 +48,8 @@
   10. [Micro:Maqueen](#micromaqueen)
       * [Introduktion](#introduktion)
       * [Info-spørgsmål fra Mark](#info-spørgsmål-fra-mark)
+  11. [Security and hacking](#security-and-hacking)
+      * [Noter til oplæg](#noter-til-oplæg)
   12. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
@@ -533,3 +535,10 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
       
       ***Kommunikation og dataoverførsel med Bluetooth***
+      
+      
+## Security and hacking
+
+  ### Noter til oplæg
+  ![NoterTilOplæg](NoterTilOplæg.jpg.jpg)
+
