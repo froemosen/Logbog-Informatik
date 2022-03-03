@@ -589,11 +589,13 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   #### DDC - Reverse Engineering - Strings I
   * Flaget står gemt i filen, hvis man omdanner den til txt:
   * ![image](https://user-images.githubusercontent.com/60390711/156564974-45a1b71c-bfe9-445d-a355-7183df7ffb56.png)
+  * **Task complete**
+  * ![image](https://user-images.githubusercontent.com/60390711/156568111-a7c27aae-4669-4018-b9d0-7f15ba6499bf.png)
 
   #### DDC - Cryptography - Defeating Caesar
   * Det vides at flaget skal starte med DDC - den krypterede kode starter med ØØÆ. Ud fra det findes mønster med alfabet, og kode findes:
   * ![image](https://user-images.githubusercontent.com/60390711/156567155-17f5c450-7169-4e08-b7e2-755344510805.png)
-  * Det fundne kode er gyldig:
+  * **Den fundne kode er gyldig:**
   * ![image](https://user-images.githubusercontent.com/60390711/156567234-771ac397-3c5e-44c7-8bed-0a635c15d5a9.png)
 
 
