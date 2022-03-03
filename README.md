@@ -602,9 +602,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * Følgende kode til kryptering er brugt:
   * ![image](https://user-images.githubusercontent.com/60390711/156594978-dc452536-5bfb-4120-85a5-ad0eca7a774a.png)
   * Da vi har en original og en krypteret version af greeting, kan key findes. Den kan derefter bruges til at dekryptere flaget. Der er fejl et sted i filerne, så koden er faktisk "DDC{d0nt_r3use_y0ur_otps!}":
-  ![image](https://user-images.githubusercontent.com/60390711/156595171-60e07ce9-39c2-46da-b768-80c6ae6a3a28.png)
-
-
+  * ![image](https://user-images.githubusercontent.com/60390711/156595171-60e07ce9-39c2-46da-b768-80c6ae6a3a28.png)
+  * __Task all done and outta here:__
+  * ![image](https://user-images.githubusercontent.com/60390711/156595573-b181b54f-80d8-47d3-b3f4-82a67d3cb749.png)
 
   #### DDC - Forensics - Meta
   * Man får et billede:
