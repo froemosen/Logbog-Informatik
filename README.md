@@ -551,6 +551,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   ### Noter til oplæg
   ![NoterTilOplæg](NoterTilOplæg.jpg)
   
+  ### Flere noter fra Mark
+  ![NoterFraMark](NoterFraMark.jpg)
+  
   ### Hack all the things
   #### TryHackMe - Pre Security (Basics)
    1. Gæt 4-digit reset password kode på en hjemmeside med dårlig sikkerhed (Bruteforce angreb)
