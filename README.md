@@ -651,6 +651,96 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * ![image](https://user-images.githubusercontent.com/60390711/157684400-563ccdff-472d-40bb-97ae-fdc378eb1f2c.png)
   * **TASK COMPLETE! MEOW HAS BEEN PWNED**
   * ![image](https://user-images.githubusercontent.com/60390711/157684674-5115cbca-f077-4e98-92db-13400e232694.png)
+ 
+  #### Fawn
+  * What does the 3-letter acronym FTP stand for? 
+  * File Transfer Protocol (FTP)
+  * ![image](https://user-images.githubusercontent.com/60390711/157686539-acf31c0a-cb82-489f-afb6-f8cf35c4c669.png)
+  * What communication model does FTP use, architecturally speaking? 
+  * client-server model
+  * ![image](https://user-images.githubusercontent.com/60390711/157687359-4b1d292c-f875-463e-a132-1b397ad1717a.png)
+  * What is the name of one popular GUI FTP program? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157687905-5b56fae2-b162-40b8-bd8e-e2ad079d541d.png)
+  * Which port is the FTP service active on usually? 
+  * 21 TCP
+  * ![image](https://user-images.githubusercontent.com/60390711/157688121-78fd948a-c28b-4f0d-a155-ed98a1fcc2bb.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157689312-ecc86db4-a4f8-4eba-89fb-2ec7683a90b1.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157689124-fa907ecf-dc2e-4da3-aa51-86fbed67c1ce.png)
+  * What acronym is used for the secure version of FTP? 
+  * SFTP
+  * ![image](https://user-images.githubusercontent.com/60390711/157689554-6a84c494-8316-4841-a380-22fa0567b60e.png)
+  * From your scans, what version is FTP running on the target? 
+  * vsftpd 3.0.3
+  * ![image](https://user-images.githubusercontent.com/60390711/157690463-936393a1-e527-4085-a1ae-68f7cb11ad40.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157690592-0fdf39b1-2d9d-4c83-b055-d41fc013e397.png)
+  * From your scans, what OS type is running on the target? 
+  * Unix
+  * ![image](https://user-images.githubusercontent.com/60390711/157690696-464ddbd8-986d-450a-8bd0-4866e610ebd4.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157690766-d832e441-9b28-4597-bbc2-c7cbc2501a67.png)
+  * Submit root flag 
+  * Først skal vi installere ftp:
+  * ![image](https://user-images.githubusercontent.com/60390711/157691257-2b031e18-9767-4b00-9ff6-a988eada597e.png)
+  * Nu bruger vi hul i FTP til at finde data som anonymous account, som ikke er pswd-protected:
+  * ![image](https://user-images.githubusercontent.com/60390711/157691617-fd32f66f-7667-4f85-9a02-0af59d3d0f32.png)
+  * flag.txt hentes ned til egen linux
+  * ![image](https://user-images.githubusercontent.com/60390711/157691850-19a086c3-825c-4822-aefc-e69d866de908.png]
+  * Man går ud af ftp med "bye":
+  * ![image](https://user-images.githubusercontent.com/60390711/157691970-f9a8d535-a658-4b1b-bac3-cf9e36c05e99.png)
+  * Flag.txt kan ses med ls -a og læses med cat:
+  * ![image](https://user-images.githubusercontent.com/60390711/157692108-78bf0810-d78c-4ac0-83cc-26c05fd088de.png)
+  * **SOLUTION HAS BEEN FOUND!!!**
+  * ![image](https://user-images.githubusercontent.com/60390711/157692344-87065838-4dfd-41eb-8dfe-de17f19ee354.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157692312-598e40f3-4cb1-4ea7-9ff0-23a7b892c4f0.png)
+  
+  #### Dancing
+  * What does the 3-letter acronym SMB stand for? 
+  * SMB (Server Message Block)
+  * ![image](https://user-images.githubusercontent.com/60390711/157692752-eee2d07b-7929-498e-b689-b16c0f88eefb.png)
+  * What port does SMB use to operate at? 
+  * port 445 TCP
+  * ![image](https://user-images.githubusercontent.com/60390711/157692937-e71681e7-8e47-4a9d-9f20-6af988ca97dc.png)
+  * What network communication model does SMB use, architecturally speaking? 
+  * Client-Server Model
+  * ![image](https://user-images.githubusercontent.com/60390711/157693869-45c98e5c-0294-4725-86a4-23b014f30f21.png)
+  * What is the service name for port 445 that came up in our nmap scan? 
+  * microsoft-ds
+  * ![image](https://user-images.githubusercontent.com/60390711/157694068-bf19bc9c-d5c4-4616-9138-8ab8ed974196.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157694206-aa90adde-ff93-47a5-a5b2-891c569971af.png)
+  * What is the tool we use to connect to SMB shares from our Linux distribution?
+  * smbclient
+  * ![image](https://user-images.githubusercontent.com/60390711/157694640-bf8a76f0-25f8-4efc-97e0-fe7381aaaa6c.png)
+  * What is the `flag` or `switch` we can use with the SMB tool to `list` the contents of the share? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157694909-2fc2300a-4ad7-4348-9076-7325f62ecbc2.png)
+  * What is the name of the share we are able to access in the end? 
+  * workshares
+  * ![image](https://user-images.githubusercontent.com/60390711/157695501-3c2dcc86-95d6-48dd-8b04-9b204306ada3.png)
+  * What is the command we can use within the SMB shell to download the files we find? 
+  * Vigtige Kommandoer:
+  * ![image](https://user-images.githubusercontent.com/60390711/157695959-931dbace-b916-487c-b91c-8575cd0e2ca2.png)
+  * get
+  * ![image](https://user-images.githubusercontent.com/60390711/157696013-efe999e8-fe74-4067-8b04-00244e7fcae2.png)
+  * Flag findes:
+  * ![image](https://user-images.githubusercontent.com/60390711/157696672-9a97e7b2-11d1-496d-9b6d-3927fedcbb0b.png)
+  * **ALL DONE**
+  * ![image](https://user-images.githubusercontent.com/60390711/157696704-95836002-023b-4cd0-86d7-c7c75a8813a6.png)
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
