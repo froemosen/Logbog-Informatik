@@ -625,4 +625,42 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * __Task complete!__
   * ![image](https://user-images.githubusercontent.com/60390711/156584934-e1826303-f2c8-4463-9575-b6d4c1a93ced.png)
 
+  ### HackTheBox
+  
+  #### Meow
+  * Hvad står VM for?...
+  * ![image](https://user-images.githubusercontent.com/60390711/157682121-b6c18578-46e2-4106-83a1-497b15b0cbe9.png)
+  * What tool do we use to interact with the operating system in order to start our VPN connection? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157682270-d7f095b3-8203-4421-8677-5f90b2b0787b.png)
+  * What service do we use to form our VPN connection? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157682352-cde35bf4-19e8-4a01-9f91-3bdf75ea49aa.png)
+  * What is the abreviated name for a tunnel interface in the output of your VPN boot-up sequence output? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157682432-f845a8ec-f3bf-4e51-a789-115f5fdfe561.png)
+  * What tool do we use to test our connection to the target? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157682535-bc1e3f73-f888-4e18-9c0f-a98972bd5a4b.png)
+  * What is the name of the tool we use to scan the target's ports? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157682596-b79dc68a-ea7b-4e05-a174-19def036c343.png)
+  * What username ultimately works with the remote management login prompt for the target? 
+  * "23/tcp open  telnet"
+  * ![image](https://user-images.githubusercontent.com/60390711/157683327-a058a183-af45-49d5-80a3-94ab2ced4c3d.png)
+  * What username ultimately works with the remote management login prompt for the target? 
+  * ![image](https://user-images.githubusercontent.com/60390711/157683414-fde4e77c-987f-4b20-abd5-d33979740c11.png)
+  * Submit root flag 
+  * Der logges ind i systemet gennem netcat, og da der ikke er sikkerhed på root, findes flag.txt med ls -a:
+  * ![image](https://user-images.githubusercontent.com/60390711/157684361-c7963008-5f11-4835-a7f1-93a2b2252c90.png)
+  * ![image](https://user-images.githubusercontent.com/60390711/157684400-563ccdff-472d-40bb-97ae-fdc378eb1f2c.png)
+  * **TASK COMPLETE! MEOW HAS BEEN PWNED**
+  * ![image](https://user-images.githubusercontent.com/60390711/157684674-5115cbca-f077-4e98-92db-13400e232694.png)
+
+
+
+
+
+
+
+
+
+
+
+
   
