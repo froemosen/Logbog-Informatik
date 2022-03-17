@@ -52,6 +52,7 @@
   11. [Security and hacking](#security-and-hacking)
       * [Noter til oplæg](#noter-til-oplæg)
       * [Hack all the things](#hack-all-the-things)
+      * [HackTheBox](#hackthebox)
   12. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
