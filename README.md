@@ -725,6 +725,48 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * **ALL DONE**
   * ![image](https://user-images.githubusercontent.com/60390711/157696704-95836002-023b-4cd0-86d7-c7c75a8813a6.png)
 
+  #### Appointment (SQL injection)
+  * What does the acronym SQL stand for? 
+  * Structured Query Language 
+  * ![image](https://user-images.githubusercontent.com/60390711/159234838-77034ec7-4fe4-4683-be9e-a83c91eb1ed9.png)
+  * What is one of the most common type of SQL vulnerabilities? 
+  * SQL injection 
+  * ![image](https://user-images.githubusercontent.com/60390711/159235099-649f6508-6acc-443a-8a01-e215d3b13de1.png)
+  * What does PII stand for? 
+  * Personally Identifiable Information
+  * ![image](https://user-images.githubusercontent.com/60390711/159235181-70e2cbf0-61a4-49ea-9b97-1be343993a2e.png)
+  * What does the OWASP Top 10 list name the classification for this vulnerability? 
+  * A03:2021-Injection 
+  * ![image](https://user-images.githubusercontent.com/60390711/159235245-5ac3f1f5-b166-48da-9add-4a3dc5e27d2f.png)
+  *  What service and version are running on port 80 of the target? 
+  *  Apache httpd 2.4.38 ((Debian)) 
+  *  ![image](https://user-images.githubusercontent.com/60390711/159235334-1f12541f-9622-4aee-85ee-e273c46060d2.png)
+  * What is the standard port used for the HTTPS protocol?
+  * 443
+  * ![image](https://user-images.githubusercontent.com/60390711/159235529-b271acb2-215f-4754-b165-7ea246175238.png)
+  * What is one luck-based method of exploiting login pages? 
+  * brute-forcing 
+  * ![image](https://user-images.githubusercontent.com/60390711/159235630-464f5106-eed3-4ee1-9d41-7f8e205dc744.png)
+  * What is a folder called in web-application terminology? 
+  * directory
+  * ![image](https://user-images.githubusercontent.com/60390711/159235702-cae17995-7f34-4338-9a6d-84ac18a4e82b.png)
+  * What response code is given for "Not Found" errors? 
+  * 404
+  * ![image](https://user-images.githubusercontent.com/60390711/159235780-2491b825-11a6-495d-b5f2-c956f590b81e.png)
+  * What switch do we use with Gobuster to specify we're looking to discover directories, and not subdomains? 
+  * dir
+  * ![image](https://user-images.githubusercontent.com/60390711/159235832-d4fae602-9bdd-4fbd-b3bd-d906df9c898a.png)
+  * What symbol do we use to comment out parts of the code? 
+  * #
+  * ![image](https://user-images.githubusercontent.com/60390711/159235920-0ea25199-096a-43b3-a740-50d5dc78da32.png)
+  * Submit root flag 
+  * Username = "admin'#"; Password = "'":
+  * ![image](https://user-images.githubusercontent.com/60390711/159236168-673ec867-3fcd-4e8c-9e4f-e7d37e3ab273.png)
+  * Flag er fundet:
+  * ![image](https://user-images.githubusercontent.com/60390711/159236210-cd34e590-c9a4-4eee-a833-eb9ea0730ee8.png)
+  * __Boom shakalaka pwned!__
+  * ![image](https://user-images.githubusercontent.com/60390711/159236331-6870e704-2076-4bfb-9907-52c0c50a0c0a.png)
+
   
 
 
