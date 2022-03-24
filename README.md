@@ -555,6 +555,8 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   ### Flere noter fra Mark
   ![NoterFraMark](NoterFraMark.jpg)
   
+  ![MarkTavleEpicVM](https://user-images.githubusercontent.com/60390711/159921689-5c193866-441b-418b-ba21-d025f4ca4176.jpg)
+  
   ### Hack all the things
   #### TryHackMe - Pre Security (Basics)
    1. Gæt 4-digit reset password kode på en hjemmeside med dårlig sikkerhed (Bruteforce angreb)
