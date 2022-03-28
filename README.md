@@ -798,9 +798,9 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 
   * Værktøjer og begreber:
-    * exploit-db
-    * Remote Access Trojan (RAT)
-    * 
+    * CVE (Common Vulnerabilities and Exposures)
+    * exploit-db (Værktøj til at finde CVEs)
+    * Remote Access Trojan (RAT) (Bagdør i system til remote access)
   
   #### Escalation
   * Når man skaffer sig adgang til et system, gennem det foothold man har skabt, eskalerer man sine privelegier. Et eksempel på en escalation i vores tilfælde, kan for eksempel være når man har logget ind via den fundne ssh-adgang i [Jacobs hus](#ddc---web-exploitation---jacobs-hus). Herefter har man fuld adgang til systemet, med sudo-access, og kan gøre hvad man vil.
