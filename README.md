@@ -53,6 +53,7 @@
       * [Noter til oplæg](#noter-til-oplæg)
       * [Hack all the things](#hack-all-the-things)
       * [HackTheBox](#hackthebox)
+      * [Afrunding](#afrunding)
   12. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
@@ -769,33 +770,30 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * __Boom shakalaka pwned!__
   * ![image](https://user-images.githubusercontent.com/60390711/159236331-6870e704-2076-4bfb-9907-52c0c50a0c0a.png)
 
+  ### Afrunding
+  * I denne sektion vil nogle af de brugte metoder/begreber opsummeres. Der er allerede noter til en del begreber længere oppe, og de kan ofte søges frem i writeups, hvis man ikke vil gennemgå det hele. I denne sektion vil begreberne "Enumeration", "Foothold" og "Escalation" gennemgås. 
+
+  #### Enumeration 
+  * _**"Enumeration is defined as the process of extracting user names, machine names, network resources, shares and services from a system. In this phase, the attacker creates an active connection to the system and performs directed queries to gain more information about the target. The gathered information is used to identify the vulnerabilities or weak points in system security and tries to exploit in the System gaining phase."**_ - [From here](https://www.greycampus.com/opencampus/ethical-hacking/enumeration-and-its-types)
+  * **Eksempler på værktøjer vi har brugt til Enumeration
+    * nmap
+      * Kan finde åbne porte på en server. Se brug i writeups.
+     
+    * massscan
+      * Kan scanne efter IP-adresser på hele internettet. [Se dokumentation her](https://github.com/robertdavidgraham/masscan)
+   
+    * shodan
+      * Kraftfuldt værktøj, som kan alt det som nmap og massscan kan. Bruges gennem en internetbrowser [her](https://www.shodan.io/).
+      
+    * dirb (eller gobuster)
+      * Bruges til at finde directories på http(s) hjemmesider. Se brug i writeups.
   
+  #### Foothold
+  * At skabe foothold, betyder at man får adgang til et system, dog uden at logge ind på det. Det betyder at man har vedvaret adgang, ved enten at finde en back door, eller ved at installere en på systemet. Et eksempel på et foothold i vores tilfælde, kan for eksempel være når man har fundet password til ssh-adgang i [Jacobs hus](#ddc---web-exploitation---jacobs-hus), men ikke har tilgået systemet endnu. Man har evnen til at udnytte systemet (et foothold), men gør ikke noget endnu.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  * _"Establish Foothold: The attacker ensures he maintains continued control over a recently compromised system. This occurs immediately following the initial compromise. Typically, the attacker establishes a foothold by installing a persistent backdoor or downloading additional utilities or malware to the victim system."_ [Herfra](https://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/)
   
+  #### Escalation
+  * Når man skaffer sig adgang til et system, gennem det foothold man har skabt, eskalerer man sine privelegier. Et eksempel på en escalation i vores tilfælde, kan for eksempel være når man har logget ind via den fundne ssh-adgang i [Jacobs hus](#ddc---web-exploitation---jacobs-hus). Herefter har man fuld adgang til systemet, med sudo-access, og kan gøre hvad man vil.
+
+  * _"Escalate Privileges: The attacker obtains greater access to systems and data. Attackers often escalate their privileges through password hash dumping (followed by password cracking or pass-the-hash attacks); keystroke/credential logging, obtaining PKI certificates, leveraging privileges held by an application, or by exploiting a vulnerable piece of software."_
