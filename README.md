@@ -770,6 +770,11 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * __Boom shakalaka pwned!__
   * ![image](https://user-images.githubusercontent.com/60390711/159236331-6870e704-2076-4bfb-9907-52c0c50a0c0a.png)
 
+  #### Paper (live box)
+  * Start live box
+  * ![image](https://user-images.githubusercontent.com/60390711/161062865-0f9a662a-1653-4128-b6e5-1d7e12f40976.png)
+  * Connection virker ikke? Mission opgives...
+
   ### Afrunding
   * I denne sektion vil nogle af de brugte metoder/begreber opsummeres. Der er allerede noter til en del begreber længere oppe, og de kan ofte søges frem i writeups, hvis man ikke vil gennemgå det hele. I denne sektion vil begreberne "Enumeration", "Foothold" og "Escalation" gennemgås. 
 
@@ -789,7 +794,7 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
       * Bruges til at finde directories på http(s) hjemmesider. Se brug i writeups.
 
     * wifite
-      * Bruges til at scanne lokalt netværk
+      * Bruges til at bryde ind i trådløse netværk.
   
   #### Foothold
   * At skabe foothold, betyder at man får adgang til et system, dog uden at logge ind på det. Det betyder at man har vedvaret adgang, ved enten at finde en back door, eller ved at installere en på systemet. Et eksempel på et foothold i vores tilfælde, kan for eksempel være når man har fundet password til ssh-adgang i [Jacobs hus](#ddc---web-exploitation---jacobs-hus), men ikke har tilgået systemet endnu. Man har evnen til at udnytte systemet (et foothold), men gør ikke noget endnu.
