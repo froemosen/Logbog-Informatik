@@ -54,7 +54,7 @@
       * [Hack all the things](#hack-all-the-things)
       * [HackTheBox](#hackthebox)
       * [Afrunding](#afrunding)
-  12.[Killer Drone](#killer-drone)
+  12. [Killer Drone](#killer-drone)
   13. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
