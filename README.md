@@ -54,7 +54,8 @@
       * [Hack all the things](#hack-all-the-things)
       * [HackTheBox](#hackthebox)
       * [Afrunding](#afrunding)
-  12. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
+  12.[Killer Drone](#killer-drone)
+  13. <a href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">NGGYU</a> 
       <!--Herover ville normalt åbne linket i ny tab, men understøttes ikke af github. (Normal HTML) -->
      
  
@@ -817,4 +818,19 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 
 
 ## Killer Drone
+- Koden til projektet kan ses herunder:
+- [GitHub Repo](https://github.com/froemosen/Project-Killer-Drone)
 - Vi har lavet en drone der gennem to Machine Learning-modeller, kan registrere ansigter i et billede, og derefter afgøre om billedet er et billede af Lac, Mark, Kristian eller et andet ansigt. Dronen vil derefter centrere det ansigt på skærmen, ved at styre op/ned og rundt (throttle og yaw). 
+- Dronen er styret reaktivt, sådan at den drejer mere når ansigt er længere væk fra centrum, og mindre når ansigtet er tættere på centrum. Det er den efter følgende udregninger, hvor droneX og droneY er midtpunkt for ansigtets boks, og hvor skærmen er 960x720 pixels
+- ![image](https://user-images.githubusercontent.com/60390711/167798231-9b9b1b04-6e99-4fa0-b703-5226076c840d.png)
+
+-  Se video herunder, for at se dronen med to trænede modeller følge efter mit ansigt:
+-  
+<object width="960" height="540">
+  <param name="movie" value="https://youtu.be/4SnQolMQtro" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://youtu.be/4SnQolMQtro"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
+
