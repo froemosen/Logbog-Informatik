@@ -825,12 +825,5 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 - ![image](https://user-images.githubusercontent.com/60390711/167798231-9b9b1b04-6e99-4fa0-b703-5226076c840d.png)
 
 -  Se video herunder, for at se dronen med to trænede modeller følge efter mit ansigt:
--  
-<object width="960" height="540">
-  <param name="movie" value="https://youtu.be/4SnQolMQtro" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/4SnQolMQtro"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+-  [![Demonstration Video](https://youtube.com/shorts/4SnQolMQtro/0.jpg)](https://youtube.com/shorts/4SnQolMQtro)
 
