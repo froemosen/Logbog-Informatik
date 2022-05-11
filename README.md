@@ -816,14 +816,11 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * Det kan også være et udtryk for når man går fra at have en type adgang til et system, til at have root priveleges. For eksemepel når man har adgang gennem ssh med en bruger uden specielle privelegier, men man så finder en måde at få sudo-access. Det kan for eksempel gøres gennem [GTFObins](https://gtfobins.github.io/)
 
 
-
 ## Killer Drone
 - Koden til projektet kan ses herunder:
 - [GitHub Repo](https://github.com/froemosen/Project-Killer-Drone)
 - Vi har lavet en drone der gennem to Machine Learning-modeller, kan registrere ansigter i et billede, og derefter afgøre om billedet er et billede af Lac, Mark, Kristian eller et andet ansigt. Dronen vil derefter centrere det ansigt på skærmen, ved at styre op/ned og rundt (throttle og yaw). 
 - Dronen er styret reaktivt, sådan at den drejer mere når ansigt er længere væk fra centrum, og mindre når ansigtet er tættere på centrum. Det er den efter følgende udregninger, hvor droneX og droneY er midtpunkt for ansigtets boks, og hvor skærmen er 960x720 pixels
 - ![image](https://user-images.githubusercontent.com/60390711/167798231-9b9b1b04-6e99-4fa0-b703-5226076c840d.png)
-
 -  Se video herunder, for at se dronen med to trænede modeller følge efter mit ansigt:
 -  [![Demonstration Video](https://img.youtube.com/vi/4SnQolMQtro/0.jpg)](https://youtube.com/shorts/4SnQolMQtro "Demonstration Video")
-
