@@ -813,3 +813,8 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
   * _"Escalate Privileges: The attacker obtains greater access to systems and data. Attackers often escalate their privileges through password hash dumping (followed by password cracking or pass-the-hash attacks); keystroke/credential logging, obtaining PKI certificates, leveraging privileges held by an application, or by exploiting a vulnerable piece of software."_ [Herfra](https://www.iacpcybercenter.org/resource-center/what-is-cyber-crime/cyber-attack-lifecycle/)
 
   * Det kan også være et udtryk for når man går fra at have en type adgang til et system, til at have root priveleges. For eksemepel når man har adgang gennem ssh med en bruger uden specielle privelegier, men man så finder en måde at få sudo-access. Det kan for eksempel gøres gennem [GTFObins](https://gtfobins.github.io/)
+
+
+
+## Killer Drone
+- Vi har lavet en drone der gennem to Machine Learning-modeller, kan registrere ansigter i et billede, og derefter afgøre om billedet er et billede af Lac, Mark, Kristian eller et andet ansigt. Dronen vil derefter centrere det ansigt på skærmen, ved at styre op/ned og rundt (throttle og yaw). 
