@@ -825,5 +825,5 @@ gang der kommer en ny lysbølge, i stedet for kun at sende 1 bit.
 - ![image](https://user-images.githubusercontent.com/60390711/167798231-9b9b1b04-6e99-4fa0-b703-5226076c840d.png)
 
 -  Se video herunder, for at se dronen med to trænede modeller følge efter mit ansigt:
--  [![Demonstration Video](https://youtube.com/shorts/4SnQolMQtro/0.jpg)](https://youtube.com/shorts/4SnQolMQtro)
+-  [![Demonstration Video](https://img.youtube.com/vi/4SnQolMQtro/0.jpg)](https://youtube.com/shorts/4SnQolMQtro "Demonstration Video")
 
